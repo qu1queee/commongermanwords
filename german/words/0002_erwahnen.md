@@ -1,5 +1,9 @@
 # Erwähnen
 
+## Pronunciation
+
+[ʔɛɐ̯ˈvɛːnən](https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/De-erwähnen.ogg/De-erwähnen.ogg.mp3)
+
 ## **Overview**
 
 Wenn man nur kurz oder etwas beiläufig etwas erzählt, dann erwähnt man es.

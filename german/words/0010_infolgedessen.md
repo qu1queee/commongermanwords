@@ -1,4 +1,7 @@
 # Infolgedessen
+## Pronunciation
+
+[ɪnfɔlɡəˈdɛsn̩](https://d7mj4aqfscim2.cloudfront.net/tts/de/token/infolgedessen)
 
 ## **Overview**
 

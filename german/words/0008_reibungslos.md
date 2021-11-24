@@ -1,5 +1,9 @@
 # Reibungslos
 
+## Pronunciation
+
+[ˈʁaɪ̯bʊŋsˌloːs](https://d7mj4aqfscim2.cloudfront.net/tts/de/token/reibungslos)
+
 ## **Overview**
 
 Wenn etwas ohne schwierigkeiten gibt.

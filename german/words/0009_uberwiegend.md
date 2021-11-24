@@ -1,5 +1,9 @@
 # Überwiegend
 
+## Pronunciation
+
+[ˈyːbɐˌviːɡn̩t](https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/De-überwiegend.ogg/De-überwiegend.ogg.mp3)
+
 ## **Overview**
 
 Hauptsächlich.

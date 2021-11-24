@@ -1,5 +1,9 @@
 # Beschwerlich
 
+## Pronunciation
+
+[bəˈʃveːɐ̯lɪç](https://d7mj4aqfscim2.cloudfront.net/tts/de/token/beschwerlich)
+
 ## **Overview**
 
 Wenn etwas mit Anstrengung verbunden ist.

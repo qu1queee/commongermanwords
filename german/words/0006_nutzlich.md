@@ -1,5 +1,9 @@
 # Nützlich
 
+## Pronunciation
+
+[nʏtslɪç](https://d7mj4aqfscim2.cloudfront.net/tts/de/token/nutzlich)
+
 ## **Overview**
 
 Wenn etwas sehr brauchbar für eine Sache ist.

@@ -1,6 +1,8 @@
 # Währenddessen
 
+## Pronunciation
 
+[vɛːʁəntˈdɛsn̩](https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/De-währenddessen.ogg/De-währenddessen.ogg.mp3)
 ## **Overview**
 
 Etwas stattfindet und zur gleichen Zeit auch etwas anderes stattfinden.

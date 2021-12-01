@@ -13,3 +13,12 @@ type Word struct {
 	Examples    []string `json:"examples"`
 	Translation []string `json:"translation"`
 }
+
+type Block struct {
+	Lines []string
+	Title string
+}
+
+type Article struct {
+	Blocks []*Block
+}

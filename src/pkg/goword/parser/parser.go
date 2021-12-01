@@ -1,6 +1,7 @@
 package parser
 
 import (
+	"bufio"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -8,6 +9,7 @@ import (
 	"net/url"
 	"regexp"
 	"strconv"
+	"strings"
 
 	"github.com/qu1queee/1000germanwords/src/pkg/goword/models"
 )
@@ -32,32 +34,111 @@ func GetCard(word string) ([]byte, error) {
 	return body, nil
 }
 
-func GetWord(data []byte, word string) (string, error) {
+func GetWord(data []byte, word string) (*models.Word, error) {
 	re := regexp.MustCompile(`\"wikitext\":\{\"\*\":\"(.*?)\"\}\}\}$`)
 	match := re.FindStringSubmatch(string(data))
 	if len(match) == 0 {
 		msg := fmt.Sprintf("No wikitext for word '%s'", word)
-		return "", errors.New(msg)
+		return nil, errors.New(msg)
 	}
 
 	convertedText, err := strconv.Unquote(`"` + match[1] + `"`)
 	if err != nil {
-		return "", nil
+		return nil, nil
 	}
-	GetWordSections(convertedText)
 
-	return "wikitext", nil
+	// todo: add description
+	scanner := bufio.NewScanner(strings.NewReader(convertedText))
+	wiktionaryArticle := models.Article{}
+
+	// https://regex101.com/r/br7rzZ/1
+	re = regexp.MustCompile(`(^{\{)(.*)(\}\})|(^\s{\{)(.*)(\}\})`)
+	var auxBlock *models.Block
+
+	for i := 0; scanner.Scan(); i++ {
+		line := scanner.Text()
+		if strings.Contains(line, "=") {
+			line = strings.Replace(line, "=", "", -1)
+		}
+		if matches := re.FindStringSubmatch(line); len(matches) > 0 {
+			auxBlock = &models.Block{}
+			if matches[2] == "" {
+				auxBlock.Title = matches[5]
+			} else {
+				auxBlock.Title = matches[2]
+			}
+			wiktionaryArticle.Blocks = append(wiktionaryArticle.Blocks, auxBlock)
+		} else {
+			auxBlock.Lines = append(auxBlock.Lines, line)
+		}
+
+	}
+	return GetSections(wiktionaryArticle)
 }
 
-func GetWordSections(data string) (*models.Word, error) {
-	wordContent := &models.Word{}
-	re := regexp.MustCompile(`Wortart\|([a-zA-Zß]{1,})\|Deutsch`)
-	allMatches := re.FindAllStringSubmatch(data, -1)
-	if len(allMatches) == 0 {
-		//TODO
+func GetSections(article models.Article) (*models.Word, error) {
+	wordObject := &models.Word{}
+	for _, block := range article.Blocks {
+		switch {
+		case strings.Contains(block.Title, "Siehe auch|"):
+			GetWordSection(block.Lines, wordObject)
+		case block.Title == "Aussprache":
+			GetIPASection(block.Lines, wordObject)
+		case block.Title == "Bedeutungen":
+			GetMeaningSection(block.Lines, wordObject)
+		case block.Title == "Beispiele":
+			GetUsageSection(block.Lines, wordObject)
+		case block.Title == "Übersetzungen":
+			GetMeaningSection(block.Lines, wordObject)
+		default:
+			//fmt.Println("todo: nothing to do")
+		}
 	}
-	for _, match := range allMatches {
-		wordContent.Type = append(wordContent.Type, match[1])
+	return wordObject, nil
+}
+
+func GetWordSection(lines []string, wordObject *models.Word) {
+	re := regexp.MustCompile(`Wortart\|([a-zA-Zßäüö]{1,})\|Deutsch`)
+	for _, line := range lines {
+		if allMatches := re.FindAllStringSubmatch(line, -1); len(allMatches) > 0 {
+			for _, match := range allMatches {
+				wordObject.Type = append(wordObject.Type, match[1])
+			}
+		}
 	}
-	return wordContent, nil
+}
+
+func GetIPASection(lines []string, wordObject *models.Word) {
+	re := regexp.MustCompile(`(Lautschrift\|(.*?)\}\})`)
+	for _, line := range lines {
+		if allMatches := re.FindAllStringSubmatch(line, -1); len(allMatches) > 0 {
+			for _, match := range allMatches {
+				wordObject.IPA = append(wordObject.IPA, match[2])
+			}
+		}
+	}
+}
+
+func GetMeaningSection(lines []string, wordObject *models.Word) {
+	for _, line := range lines {
+		if line != "" {
+			wordObject.Meaning = append(wordObject.Meaning, line)
+		}
+	}
+}
+
+func GetUsageSection(lines []string, wordObject *models.Word) {
+	for _, line := range lines {
+		if line != "" {
+			wordObject.Examples = append(wordObject.Examples, line)
+		}
+	}
+}
+
+func GetTranslations(lines []string, wordObject *models.Word) {
+	for _, line := range lines {
+		if line != "" {
+			wordObject.Translation = append(wordObject.Translation, line)
+		}
+	}
 }

@@ -69,10 +69,14 @@ func GetWord(data []byte, word string) (*models.Word, error) {
 			}
 			wiktionaryArticle.Blocks = append(wiktionaryArticle.Blocks, auxBlock)
 		} else {
+			if auxBlock == nil {
+				auxBlock = &models.Block{}
+			}
 			auxBlock.Lines = append(auxBlock.Lines, line)
 		}
 
 	}
+
 	return GetSections(wiktionaryArticle)
 }
 
@@ -89,7 +93,7 @@ func GetSections(article models.Article) (*models.Word, error) {
 		case block.Title == "Beispiele":
 			GetUsageSection(block.Lines, wordObject)
 		case block.Title == "Übersetzungen":
-			GetMeaningSection(block.Lines, wordObject)
+			GetTranslations(block.Lines, wordObject)
 		default:
 			//fmt.Println("todo: nothing to do")
 		}
@@ -122,7 +126,7 @@ func GetIPASection(lines []string, wordObject *models.Word) {
 func GetMeaningSection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Meaning = append(wordObject.Meaning, line)
+			wordObject.Meaning = append(wordObject.Meaning, replaceIndexWithBrackets(line))
 		}
 	}
 }
@@ -130,15 +134,40 @@ func GetMeaningSection(lines []string, wordObject *models.Word) {
 func GetUsageSection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Examples = append(wordObject.Examples, line)
+			wordObject.Examples = append(wordObject.Examples, replaceIndexWithBrackets(line))
 		}
 	}
 }
 
 func GetTranslations(lines []string, wordObject *models.Word) {
+	esRgx := regexp.MustCompile(`(es\|)([a-z]{1,})(}})`)
+	enRgx := regexp.MustCompile(`(en\|)([a-z]{1,})(}})`)
+	spanishTranslations := []string{}
+	englishTranslations := []string{}
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Translation = append(wordObject.Translation, line)
+			if strings.Contains(line, "{{es}}") {
+				if matches := esRgx.FindAllStringSubmatch(line, -1); len(matches) > 0 {
+					for _, translation := range matches {
+						spanishTranslations = append(spanishTranslations, translation[2])
+					}
+					wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("es: %v", strings.Join(spanishTranslations, ", ")))
+				}
+
+			}
+			if strings.Contains(line, "{{en}}") {
+				if matches := enRgx.FindAllStringSubmatch(line, -1); len(matches) > 0 {
+					for _, translation := range matches {
+						englishTranslations = append(englishTranslations, translation[2])
+					}
+					wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("en: %v", strings.Join(englishTranslations, ", ")))
+				}
+			}
 		}
 	}
+}
+
+func replaceIndexWithBrackets(line string) string {
+	m1 := regexp.MustCompile(`^:\[.*\] `)
+	return m1.ReplaceAllString(line, "")
 }

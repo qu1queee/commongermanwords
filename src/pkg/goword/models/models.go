@@ -15,8 +15,8 @@ type Word struct {
 }
 
 type Block struct {
-	Lines []string
-	Title string
+	Lines []string `json:"lines,omitempty"`
+	Title string   `json:"title,omitempty"`
 }
 
 type Article struct {

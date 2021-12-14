@@ -2,13 +2,7 @@ name: PR Word Card
 
 on:
   schedule:
-    - cron:  '30 23 * * *'
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Person to greet'
-        required: true
-        default: 'Mona the Octocat'
+    - cron:  '10 * * * *'
 
 
 jobs:

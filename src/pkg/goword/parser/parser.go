@@ -14,7 +14,7 @@ import (
 	"github.com/qu1queee/1000germanwords/src/pkg/goword/models"
 )
 
-func GetCard(word string) ([]byte, error) {
+func GetCard(word string) (*models.Word, error) {
 
 	urlHead := "https://de.wiktionary.org/w/api.php?action=parse&page="
 	urlTail := "&prop=wikitext&format=json"
@@ -31,7 +31,7 @@ func GetCard(word string) ([]byte, error) {
 		return nil, err
 	}
 
-	return body, nil
+	return GetWord(body, word)
 }
 
 func GetWord(data []byte, word string) (*models.Word, error) {
@@ -84,8 +84,8 @@ func GetSections(article models.Article) (*models.Word, error) {
 	wordObject := &models.Word{}
 	for _, block := range article.Blocks {
 		switch {
-		case strings.Contains(block.Title, "Siehe auch|"):
-			GetWordSection(block.Lines, wordObject)
+		case strings.Contains(block.Title, "Siehe auch|") || strings.Contains(block.Title, "Wortart|"):
+			GetWordSection(block.Title, block.Lines, wordObject)
 		case block.Title == "Aussprache":
 			GetIPASection(block.Lines, wordObject)
 		case block.Title == "Bedeutungen":
@@ -101,8 +101,16 @@ func GetSections(article models.Article) (*models.Word, error) {
 	return wordObject, nil
 }
 
-func GetWordSection(lines []string, wordObject *models.Word) {
+func GetWordSection(title string, lines []string, wordObject *models.Word) {
 	re := regexp.MustCompile(`Wortart\|([a-zA-Zßäüö]{1,})\|Deutsch`)
+
+	if checkTitleMatches := re.FindAllStringSubmatch(title, -1); len(checkTitleMatches) > 0 {
+		for _, match := range checkTitleMatches {
+			wordObject.Type = append(wordObject.Type, match[1])
+			return
+		}
+	}
+
 	for _, line := range lines {
 		if allMatches := re.FindAllStringSubmatch(line, -1); len(allMatches) > 0 {
 			for _, match := range allMatches {

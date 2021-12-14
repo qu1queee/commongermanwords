@@ -1,7 +1,10 @@
 package parser
 
 import (
+	"io/ioutil"
+	"os"
 	"reflect"
+	"strings"
 	"testing"
 
 	"github.com/qu1queee/1000germanwords/src/pkg/goword/models"
@@ -105,4 +108,36 @@ func TestWordParser(t *testing.T) {
 			}
 		}
 	}
+}
+
+func TestKnownWords(t *testing.T) {
+	fileBytes, err := ioutil.ReadFile("../../../../wordslist/first1000.yaml")
+
+	if err != nil {
+		os.Exit(1)
+	}
+	sliceData := strings.Split(string(fileBytes), "\n")
+
+	for _, line := range sliceData[2:] {
+		line = strings.TrimSpace(strings.Replace(line, "-", "", -1))
+		if strings.Contains(line, "�") { //todo
+			continue
+		}
+		t.Log(line)
+		if model, _ := GetCard(line); !isValidObject(model) {
+			t.Errorf("got an incomplete word: %v", line)
+		}
+
+	}
+
+}
+
+func isValidObject(w *models.Word) bool {
+	if w == nil {
+		return false
+	}
+	if len(w.IPA) <= 0 {
+		return false
+	}
+	return true
 }

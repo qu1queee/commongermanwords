@@ -1,0 +1,36 @@
+name: PR Word Card
+
+on:
+  schedule:
+    - cron:  '30 23 * * *'
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        required: true
+        default: 'Mona the Octocat'
+
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v2
+      with:
+        go-version: 1.17.x
+    - uses: actions/checkout@v2
+    - name: generate-word
+      run: |
+        # todo
+        pushd src/
+        go build -o goword cmd/goword/main.go
+        ./goword -w hallo
+        ls
+        mv hallo.md ../german/words/
+        # git config user.name 'Peter Evans'
+        # git config user.email 'peter-evans@users.noreply.github.com'
+        # git add ../german/words/
+        # git commit -m "test"
+        popd
+    - name: pull-request
+      uses: peter-evans/create-pull-request@v3

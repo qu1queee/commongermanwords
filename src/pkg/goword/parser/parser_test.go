@@ -13,64 +13,83 @@ import (
 func TestWordParser(t *testing.T) {
 	testCases := []models.Article{
 		{
-			Blocks: []*models.Block{
-				{
-					Title: "Siehe auch|[[Hallo]]",
-					Lines: []string{
-						"== hallo ({{Sprache|Deutsch}}) ==",
-						"=== {{Wortart|Interjektion|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===",
-						"{{Wortart|Abkürzung|Deutsch}}..{{Wortart|Interjektion|Deutsch}}",
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
+						Title: "Siehe auch|[[Hallo]]",
+						Lines: []string{
+							"== hallo ({{Sprache|Deutsch}}) ==",
+							"=== {{Wortart|Interjektion|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===",
+							"{{Wortart|Abkürzung|Deutsch}}..{{Wortart|Interjektion|Deutsch}}",
+						},
+					},
+				},
+				"Deutschi": {
+					{
+						Title: "Siehe auch|[[Hallo]]",
+						Lines: []string{
+							"=== {{Wortart|Fake|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===",
+						},
 					},
 				},
 			},
 		},
 		{
-			Blocks: []*models.Block{
-				{
-					Title: "Aussprache",
-					Lines: []string{
-						":{{Reime}} {{Reim|alo|Deutsch}}, {{Reim|oː|Deutsch}}",
-						":{{Hörbeispiele}} {{Audio|De-hallo.ogg}}, {{Audio|CPIDL German - Hallo.ogg}}",
-						":{{IPA}} {{Lautschrift|ˈhalo}}, {{Lautschrift|haˈloː}}",
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
+						Title: "Aussprache",
+						Lines: []string{
+							":{{Reime}} {{Reim|alo|Deutsch}}, {{Reim|oː|Deutsch}}",
+							":{{Hörbeispiele}} {{Audio|De-hallo.ogg}}, {{Audio|CPIDL German - Hallo.ogg}}",
+							":{{IPA}} {{Lautschrift|ˈhalo}}, {{Lautschrift|haˈloː}}",
+						},
 					},
 				},
 			},
 		},
 		{
-			Blocks: []*models.Block{
-				{
-					Title: "Bedeutungen",
-					Lines: []string{
-						":[1] ''als Interjektion:'' ein [[Anruf]], mit dem man andere, auch Fremde, auf sich aufmerksam machen will",
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
+						Title: "Bedeutungen",
+						Lines: []string{
+							":[1] ''als Interjektion:'' ein [[Anruf]], mit dem man andere, auch Fremde, auf sich aufmerksam machen will",
+						},
 					},
 				},
 			},
 		},
 		{
-			Blocks: []*models.Block{
-				{
-					Title: "Beispiele",
-					Lines: []string{
-						":[2, 3] ''Hallo,'' Max!",
-						":[3] ''Hallo'', Jana, bist du noch dran?",
-						":[2] sample test: : ",
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
+						Title: "Beispiele",
+						Lines: []string{
+							":[2, 3] ''Hallo,'' Max!",
+							":[3] ''Hallo'', Jana, bist du noch dran?",
+							":[2] sample test: : ",
+						},
 					},
 				},
 			},
 		},
 		{
-			Blocks: []*models.Block{
-				{
-					Title: "Übersetzungen",
-					Lines: []string{
-						"*{{en}}: [2] {{Ü|en|hi}}, ''britisch:'' {{Ü|en|hello}}",
-						"*{{es}}: [1] {{Ü|es|oiga}}; [2] {{Ü|es|hola}}; [3] {{Ü|es|diga}}",
-						"*{{tr}}: [2] {{Ü|tr|merhaba}}",
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
+						Title: "Übersetzungen",
+						Lines: []string{
+							"*{{en}}: [2] {{Ü|en|hi}}, ''britisch:'' {{Ü|en|hello}}",
+							"*{{es}}: [1] {{Ü|es|oiga}}; [2] {{Ü|es|hola}}; [3] {{Ü|es|diga}}",
+							"*{{tr}}: [2] {{Ü|tr|merhaba}}",
+						},
 					},
 				},
 			},
 		},
 	}
+
 	expected := []*models.Word{
 		{
 			Type: []string{"Interjektion", "Grußformel", "Abkürzung", "Interjektion"},
@@ -124,7 +143,7 @@ func TestKnownWords(t *testing.T) {
 			continue
 		}
 		t.Log(line)
-		if model, _ := GetCard(line); !isValidObject(model) {
+		if model, _ := GetArticle(line); !isValidObject(model) {
 			t.Errorf("got an incomplete word: %v", line)
 		}
 

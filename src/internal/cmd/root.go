@@ -13,12 +13,15 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "goword",
 	Short: "Get the meaning of a German word",
-	Long: `Goword provides you an extensive markdown
-				  document to learn new words.`,
+	Long: `👾 👾 👾 👾 👾 👾 👾 👾
+	
+Goword generates an extensive markdown document 
+of a word(German only), in order for people to 
+learn new words.	
+	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		word := viper.GetString("word")
-		fmt.Println(word)
-		if data, err := parser.GetCard(word); err == nil {
+		if data, err := parser.GetArticle(word); err == nil {
 			file, err := os.Create(fmt.Sprintf("%v.md", word))
 			if err != nil {
 				log.Fatal(err)
@@ -44,13 +47,16 @@ var rootCmd = &cobra.Command{
 			for _, translation := range data.Translation {
 				fmt.Fprintf(file, "- **%s** \n", translation)
 			}
+			fmt.Fprintf(file, "## Features \n")
+			for _, feature := range data.Features {
+				fmt.Fprintf(file, "- **%s** \n", feature)
+			}
 		}
 		os.Exit(0)
 	},
 }
 
 func init() {
-
 	rootCmd.PersistentFlags().StringP("word", "w", "", "word to look up!")
 	viper.BindPFlag("word", rootCmd.PersistentFlags().Lookup("word"))
 

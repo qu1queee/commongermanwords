@@ -14,12 +14,13 @@ import (
 	"github.com/qu1queee/1000germanwords/src/pkg/goword/models"
 )
 
-func GetCard(word string) (*models.Word, error) {
+const ()
 
-	urlHead := "https://de.wiktionary.org/w/api.php?action=parse&page="
-	urlTail := "&prop=wikitext&format=json"
+// GetArticle provides an article based on a word,
+// with all related languages blocks.
+func GetArticle(word string) (*models.Word, error) {
 
-	url := urlHead + url.QueryEscape(word) + urlTail
+	url := URLHEAD + url.QueryEscape(word) + URLTAIL
 
 	resp, err := http.Get(url)
 	if err != nil {
@@ -30,44 +31,78 @@ func GetCard(word string) (*models.Word, error) {
 	if err != nil {
 		return nil, err
 	}
-
-	return GetWord(body, word)
+	return GetWordObject(body, word)
 }
 
-func GetWord(data []byte, word string) (*models.Word, error) {
-	re := regexp.MustCompile(`\"wikitext\":\{\"\*\":\"(.*?)\"\}\}\}$`)
-	match := re.FindStringSubmatch(string(data))
+func convertJSONtoLines(data []byte, word string) (*bufio.Scanner, error) {
+
+	wikiJSONParser := regexp.MustCompile(JSONREGEXPARSER)
+	match := wikiJSONParser.FindStringSubmatch(string(data))
 	if len(match) == 0 {
 		msg := fmt.Sprintf("No wikitext for word '%s'", word)
 		return nil, errors.New(msg)
 	}
 
-	convertedText, err := strconv.Unquote(`"` + match[1] + `"`)
+	text, err := strconv.Unquote(`"` + match[1] + `"`)
 	if err != nil {
 		return nil, nil
 	}
 
-	// todo: add description
-	scanner := bufio.NewScanner(strings.NewReader(convertedText))
-	wiktionaryArticle := models.Article{}
+	return bufio.NewScanner(strings.NewReader(text)), nil
+}
 
-	// https://regex101.com/r/br7rzZ/1
-	re = regexp.MustCompile(`(^{\{)(.*)(\}\})|(^\s{\{)(.*)(\}\})`)
+func GetWordObject(data []byte, word string) (*models.Word, error) {
+
 	var auxBlock *models.Block
+	var languageName string
 
+	scanner, err := convertJSONtoLines(data, word)
+	if err != nil {
+		return nil, fmt.Errorf("an error ocurred when retrieving from wiktionary: %v", err)
+	}
+
+	//
+	// compile required regexp for retrieving language and block types:
+	// Wiktionary seems to be making the following distinction
+	// double equals sign for languages, see: == hallo ({{Sprache|Deutsch}}) ==
+	// triple equals sign for categories(blocks) under the same language,
+	// see: === {{Wortart|Interjektion|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===
+	//
+	reLanguageType := regexp.MustCompile(LANGUAGETYPEPARSER)
+	reBlockType := regexp.MustCompile(BLOCKTYPEPARSER)
+
+	// init Article with the related Language map
+	wiktionaryArticle := models.Article{}
+	wiktionaryArticle.Language = make(map[string][]*models.Block)
+
+	// read all content lines and categorize by language with multiple blocks.
 	for i := 0; scanner.Scan(); i++ {
 		line := scanner.Text()
+		if matches := reLanguageType.FindAllStringSubmatch(line, -1); len(matches) > 0 {
+			for _, entries := range matches {
+				for id, entry := range entries {
+					if id == 2 {
+						languageName = entry
+						wiktionaryArticle.Language[languageName] = []*models.Block{}
+					}
+				}
+			}
+		}
+		if languageName == "" {
+			continue
+		}
+
 		if strings.Contains(line, "=") {
 			line = strings.Replace(line, "=", "", -1)
 		}
-		if matches := re.FindStringSubmatch(line); len(matches) > 0 {
+		if matches := reBlockType.FindStringSubmatch(line); len(matches) > 0 {
 			auxBlock = &models.Block{}
 			if matches[2] == "" {
 				auxBlock.Title = matches[5]
 			} else {
 				auxBlock.Title = matches[2]
 			}
-			wiktionaryArticle.Blocks = append(wiktionaryArticle.Blocks, auxBlock)
+			wiktionaryArticle.Language[languageName] = append(wiktionaryArticle.Language[languageName], auxBlock)
 		} else {
 			if auxBlock == nil {
 				auxBlock = &models.Block{}
@@ -76,32 +111,34 @@ func GetWord(data []byte, word string) (*models.Word, error) {
 		}
 
 	}
-
 	return GetSections(wiktionaryArticle)
 }
 
 func GetSections(article models.Article) (*models.Word, error) {
 	wordObject := &models.Word{}
-	for _, block := range article.Blocks {
+	for _, block := range article.Language[DESIREDLANGUAGE] {
 		switch {
-		case strings.Contains(block.Title, "Siehe auch|") || strings.Contains(block.Title, "Wortart|"):
-			GetWordSection(block.Title, block.Lines, wordObject)
-		case block.Title == "Aussprache":
+		case strings.Contains(block.Title, SIEHEAUCH) || strings.Contains(block.Title, WORDTYPE):
+			GetWordType(block.Title, block.Lines, wordObject)
+		case block.Title == PRONUNCIATION:
 			GetIPASection(block.Lines, wordObject)
-		case block.Title == "Bedeutungen":
+		case block.Title == MEANING:
 			GetMeaningSection(block.Lines, wordObject)
-		case block.Title == "Beispiele":
+		case block.Title == EXAMPLES:
 			GetUsageSection(block.Lines, wordObject)
-		case block.Title == "Übersetzungen":
+		case block.Title == TRANSLATION:
 			GetTranslations(block.Lines, wordObject)
+		case block.Title == FEATURES:
+			GetFeatures(block.Lines, wordObject)
 		default:
-			//fmt.Println("todo: nothing to do")
+			// todo: enhance default behaviour
 		}
 	}
 	return wordObject, nil
 }
 
-func GetWordSection(title string, lines []string, wordObject *models.Word) {
+// GetWordType provides the grammatic type of the desired word
+func GetWordType(title string, lines []string, wordObject *models.Word) {
 	re := regexp.MustCompile(`Wortart\|([a-zA-Zßäüö]{1,})\|Deutsch`)
 
 	if checkTitleMatches := re.FindAllStringSubmatch(title, -1); len(checkTitleMatches) > 0 {
@@ -120,6 +157,7 @@ func GetWordSection(title string, lines []string, wordObject *models.Word) {
 	}
 }
 
+// GetIPASection consumes all different pronunciations of a word
 func GetIPASection(lines []string, wordObject *models.Word) {
 	re := regexp.MustCompile(`(Lautschrift\|(.*?)\}\})`)
 	for _, line := range lines {
@@ -131,6 +169,7 @@ func GetIPASection(lines []string, wordObject *models.Word) {
 	}
 }
 
+// GetMeaningSection consumes all examples of a word definition in German
 func GetMeaningSection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
@@ -139,6 +178,7 @@ func GetMeaningSection(lines []string, wordObject *models.Word) {
 	}
 }
 
+// GetUsageSection consumes all examples of a word usage
 func GetUsageSection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
@@ -147,6 +187,18 @@ func GetUsageSection(lines []string, wordObject *models.Word) {
 	}
 }
 
+// GetFeatures consumes all grammatical features of a word usage
+// todo: missing unit test
+func GetFeatures(lines []string, wordObject *models.Word) {
+	for _, line := range lines {
+		if line != "" {
+			wordObject.Features = append(wordObject.Features, replaceIndexWithBrackets(line))
+		}
+	}
+}
+
+// GetTranslations provides a selected list of translations
+// despite multiple available languages
 func GetTranslations(lines []string, wordObject *models.Word) {
 	esRgx := regexp.MustCompile(`(es\|)([a-z]{1,})(}})`)
 	enRgx := regexp.MustCompile(`(en\|)([a-z]{1,})(}})`)
@@ -154,6 +206,7 @@ func GetTranslations(lines []string, wordObject *models.Word) {
 	englishTranslations := []string{}
 	for _, line := range lines {
 		if line != "" {
+			// TODO: get rid of code duplication
 			if strings.Contains(line, "{{es}}") {
 				if matches := esRgx.FindAllStringSubmatch(line, -1); len(matches) > 0 {
 					for _, translation := range matches {

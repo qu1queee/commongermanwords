@@ -1,15 +1,14 @@
 name: Send a Tweet
 on: [push]
 jobs:
-  test:
-    name: posting_on_twitter
+  tweet:
     runs-on: ubuntu-latest
     steps:
-      - name: tweety
-        uses: m1ner79/Github-Twittction@v1.0.1
+      - uses: Eomm/why-don-t-you-tweet@v1
         with:
-            twitter_status: "ℍ𝕖𝕪 𝕪𝕠𝕦! 👋 𝕎𝕖 ${{ github.event.repository.owner.name}} 𝕙𝕒𝕧𝕖 𝕒 𝕟𝕖𝕨 𝕔𝕠𝕞𝕞𝕚𝕥 𝕚𝕟 𝕥𝕙𝕖 main 𝕓𝕣𝕒𝕟𝕔𝕙 🥳 \n 𝕀𝕥𝕤 𝕟𝕒𝕞𝕖 𝕚𝕤 ${{ github.event.commits[0].message }} 😱 \n ℂ𝕙𝕖𝕔𝕜 𝕚𝕥 𝕠𝕦𝕥 𝕙𝕖𝕣𝕖 👇 \n ${{ github.event.commits[0].url }}"
-            twitter_consumer_key: ${{ secrets.TWITTER_CONSUMER_API_KEY }} 
-            twitter_consumer_secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }} 
-            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN }} 
-            twitter_access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} 
+          tweet-message: "hello world!"
+        env:
+          TWITTER_CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          TWITTER_CONSUMER_API_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}

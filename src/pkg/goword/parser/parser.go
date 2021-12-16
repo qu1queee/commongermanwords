@@ -229,6 +229,10 @@ func GetTranslations(lines []string, wordObject *models.Word) {
 }
 
 func replaceIndexWithBrackets(line string) string {
-	m1 := regexp.MustCompile(`^:\[.*\] `)
-	return m1.ReplaceAllString(line, "")
+	if strings.HasPrefix(line, ":[") {
+		// https://regex101.com/r/JGwzZM/1
+		m1 := regexp.MustCompile(`^:\[[\d\s,]{1,}\]\s`)
+		return m1.ReplaceAllString(line, "")
+	}
+	return line
 }

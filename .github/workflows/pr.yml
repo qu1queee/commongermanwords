@@ -45,8 +45,14 @@ jobs:
           go build -o goword cmd/goword/main.go        
           filename="${nofiles}_${word}.md"
           ./goword -w ${word}
+          echo "WORD_ID=${word}" >> $GITHUB_ENV
           mv $word.md ../german/words/$filename
           rm goword
         popd
     - name: pull-request
       uses: peter-evans/create-pull-request@v3
+      with:
+          delete-branch: true
+          title: '${{ env.WORD_ID }}'
+          body: |
+            Added a new German word

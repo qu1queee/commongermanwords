@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: Eomm/why-don-t-you-tweet@v1
         with:
-          tweet-message: "New 🇩🇪 word: ${{ github.event.commits[0].message }}. See ${{ github.event.head_commit.url }}"
+          tweet-message: "New 🇩🇪 word: ${{ github.event.commits[0].message }}"
         env:
           TWITTER_CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           TWITTER_CONSUMER_API_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}

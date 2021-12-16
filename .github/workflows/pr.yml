@@ -53,6 +53,7 @@ jobs:
       uses: peter-evans/create-pull-request@v3
       with:
           delete-branch: true
-          title: '${{ env.WORD_ID }}'
+          title: Adding '${{ env.WORD_ID }}' word
+          commit-message: '${{ env.WORD_ID }}'
           body: |
             Added a new German word

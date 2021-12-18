@@ -7,3 +7,12 @@ A utility for improving your German vocabulary.
 ## What does this do?
 
 _**CommonGermanWords**_ provides definitions of the most common words used in the German language. This definition is extracted from [Wiktionary](https://de.wiktionary.org) and provided here via a consumable file(_see [words](https://github.com/qu1queee/commongermanwords/tree/main/german/words)_). The list of _den häufigsten Wörtern_ is based on the Leipzig Corpora [Collection](http://web.archive.org/web/20170227200416/http://wortschatz.uni-leipzig.de/html/wliste.html).
+
+
+## Why this?
+
+This is an attempt on finding new ways of learning with existing technologies. For this particular case(_extending your vocabulary_), the learning happens when a PR is automatically generated with one of the most common german words definition.
+
+Going beyond Github, a Twitter account will be posting the words content after a PR is merged.
+
+

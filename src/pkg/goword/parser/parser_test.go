@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/qu1queee/1000germanwords/src/pkg/goword/models"
+	"github.com/qu1queee/commongermanwords/src/pkg/goword/models"
 )
 
 func TestWordParser(t *testing.T) {

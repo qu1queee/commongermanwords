@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/qu1queee/1000germanwords/src/pkg/goword/parser"
+	"github.com/qu1queee/commongermanwords/src/pkg/goword/parser"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

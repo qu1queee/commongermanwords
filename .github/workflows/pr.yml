@@ -31,7 +31,6 @@ jobs:
         echo "This is the word: ${word}"
 
         files=`ls german/words`
-        nofiles=$(($(ls german/words| wc -l) + 1))
         for eachfile in $files
         do
            if [[ $eachfile == *"${word}.md"  ]]; then
@@ -43,7 +42,7 @@ jobs:
 
         pushd src/
           go build -o goword cmd/goword/main.go        
-          filename="${nofiles}_${word}.md"
+          filename="${word}.md"
           ./goword -w ${word}
           echo "WORD_ID=${word}" >> $GITHUB_ENV
           mv $word.md ../german/words/$filename

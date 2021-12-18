@@ -1,8 +1,6 @@
 name: Lint Word Cards
 
-on:
-  pull_request:
-    branches: [*]
+on: [pull_request]
 
 
 jobs:

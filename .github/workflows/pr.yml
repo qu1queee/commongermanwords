@@ -54,5 +54,6 @@ jobs:
           delete-branch: true
           title: Adding '${{ env.WORD_ID }}' word
           commit-message: '${{ env.WORD_ID }}'
+          branch: '${{ env.WORD_ID }}'
           body: |
             Added a new German word

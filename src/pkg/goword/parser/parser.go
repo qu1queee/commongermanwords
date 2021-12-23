@@ -163,7 +163,9 @@ func GetIPASection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if allMatches := re.FindAllStringSubmatch(line, -1); len(allMatches) > 0 {
 			for _, match := range allMatches {
-				wordObject.IPA = append(wordObject.IPA, match[2])
+				if !contains(wordObject.IPA, match[2]) {
+					wordObject.IPA = append(wordObject.IPA, match[2])
+				}
 			}
 		}
 	}
@@ -235,4 +237,14 @@ func replaceIndexWithBrackets(line string) string {
 		return m1.ReplaceAllString(line, "")
 	}
 	return line
+}
+
+func contains(source []string, match string) bool {
+	for _, v := range source {
+		if v == match {
+			return true
+		}
+	}
+
+	return false
 }

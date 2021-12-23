@@ -52,6 +52,18 @@ func TestWordParser(t *testing.T) {
 			Language: map[string][]*models.Block{
 				"Deutsch": {
 					{
+						Title: "Aussprache",
+						Lines: []string{
+							":{{IPA}} {{Lautschrift|ˈhalo}}, {{Lautschrift|haˈloː}}, {{Lautschrift|haˈloː}}",
+						},
+					},
+				},
+			},
+		},
+		{
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
 						Title: "Bedeutungen",
 						Lines: []string{
 							":[1] ''als Interjektion:'' ein [[Anruf]], mit dem man andere, auch Fremde, auf sich aufmerksam machen will",
@@ -93,6 +105,9 @@ func TestWordParser(t *testing.T) {
 	expected := []*models.Word{
 		{
 			Type: []string{"Interjektion", "Grußformel", "Abkürzung", "Interjektion"},
+		},
+		{
+			IPA: []string{"ˈhalo", "haˈloː"},
 		},
 		{
 			IPA: []string{"ˈhalo", "haˈloː"},

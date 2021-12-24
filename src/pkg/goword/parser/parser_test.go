@@ -95,6 +95,7 @@ func TestWordParser(t *testing.T) {
 							"*{{en}}: [2] {{Ü|en|hi}}, ''britisch:'' {{Ü|en|hello}}",
 							"*{{es}}: [1] {{Ü|es|oiga}}; [2] {{Ü|es|hola}}; [3] {{Ü|es|diga}}",
 							"*{{tr}}: [2] {{Ü|tr|merhaba}}",
+							"*{{es}}: [1, 2, 4] {{Ü|es|en}}, {{Ü|es|junto a}}; [3] ''Zeitpunkt:'' \"an\" wird nicht übersetzt, stattdessen wird der bestimmte Artikel verwendet (zum Beispiel: el {{Ü|es|domingo}}, am Sonntag), ''Zeitraum:'' {{Ü|es|por}} (zum Beispiel por {{Ü|es|navidad}}, zu Weihnachten)",
 						},
 					},
 				},
@@ -126,8 +127,8 @@ func TestWordParser(t *testing.T) {
 		},
 		{
 			Translation: []string{
-				"en: hi, hello",
-				"es: oiga, hola, diga",
+				"es: oiga, en",
+				"en: hi",
 			},
 		},
 	}

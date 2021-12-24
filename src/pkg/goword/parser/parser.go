@@ -14,8 +14,6 @@ import (
 	"github.com/qu1queee/commongermanwords/src/pkg/goword/models"
 )
 
-const ()
-
 // GetArticle provides an article based on a word,
 // with all related languages blocks.
 func GetArticle(word string) (*models.Word, error) {
@@ -204,30 +202,21 @@ func GetFeatures(lines []string, wordObject *models.Word) {
 func GetTranslations(lines []string, wordObject *models.Word) {
 	esRgx := regexp.MustCompile(`(es\|)([a-z]{1,})(}})`)
 	enRgx := regexp.MustCompile(`(en\|)([a-z]{1,})(}})`)
-	spanishTranslations := []string{}
-	englishTranslations := []string{}
+
+	var englishTranslations, spanishTranslations []string
+
 	for _, line := range lines {
 		if line != "" {
-			// TODO: get rid of code duplication
 			if strings.Contains(line, "{{es}}") {
-				if matches := esRgx.FindAllStringSubmatch(line, -1); len(matches) > 0 {
-					for _, translation := range matches {
-						spanishTranslations = append(spanishTranslations, translation[2])
-					}
-					wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("es: %v", strings.Join(spanishTranslations, ", ")))
-				}
-
+				spanishTranslations = append(spanishTranslations, getTranslationMatch(esRgx, line)...)
 			}
 			if strings.Contains(line, "{{en}}") {
-				if matches := enRgx.FindAllStringSubmatch(line, -1); len(matches) > 0 {
-					for _, translation := range matches {
-						englishTranslations = append(englishTranslations, translation[2])
-					}
-					wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("en: %v", strings.Join(englishTranslations, ", ")))
-				}
+				englishTranslations = append(englishTranslations, getTranslationMatch(enRgx, line)...)
 			}
 		}
 	}
+	wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("es: %v", strings.Join(spanishTranslations, ", ")))
+	wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("en: %v", strings.Join(englishTranslations, ", ")))
 }
 
 func replaceIndexWithBrackets(line string) string {
@@ -247,4 +236,16 @@ func contains(source []string, match string) bool {
 	}
 
 	return false
+}
+
+func getTranslationMatch(regx *regexp.Regexp, line string) []string {
+	var translations []string
+	if matches := regx.FindStringSubmatch(line); len(matches) > 0 {
+		for index, translation := range matches {
+			if index == 2 {
+				translations = append(translations, translation)
+			}
+		}
+	}
+	return translations
 }

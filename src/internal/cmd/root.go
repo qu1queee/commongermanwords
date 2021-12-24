@@ -26,30 +26,30 @@ learn new words.
 			if err != nil {
 				log.Fatal(err)
 			}
-			fmt.Fprintf(file, "# %s \n", word)
-			fmt.Fprintf(file, "## Type \n")
-			for _, ipa := range data.Type {
-				fmt.Fprintf(file, "- _**%s**_ \n", ipa)
-			}
-			fmt.Fprintf(file, "## Pronunciation \n")
-			for _, ipa := range data.IPA {
-				fmt.Fprintf(file, "- _**%s**_ \n", ipa)
-			}
-			fmt.Fprintf(file, "## Meaning \n")
-			for _, meaning := range data.Meaning {
-				fmt.Fprintf(file, "- **%s** \n", meaning)
-			}
-			fmt.Fprintf(file, "## Examples \n")
-			for _, examples := range data.Examples {
-				fmt.Fprintf(file, "- **%s** \n", examples)
-			}
-			fmt.Fprintf(file, "## Translations \n")
+			fmt.Fprintf(file, "# %s\n", word)
+			fmt.Fprintf(file, "## Translations\n")
 			for _, translation := range data.Translation {
-				fmt.Fprintf(file, "- **%s** \n", translation)
+				fmt.Fprintf(file, "- **%s**\n", translation)
 			}
-			fmt.Fprintf(file, "## Features \n")
+			fmt.Fprintf(file, "## Type\n")
+			for _, ipa := range data.Type {
+				fmt.Fprintf(file, "- _**%s**_\n", ipa)
+			}
+			fmt.Fprintf(file, "## Pronunciation\n")
+			for _, ipa := range data.IPA {
+				fmt.Fprintf(file, "- _**%s**_\n", ipa)
+			}
+			fmt.Fprintf(file, "## Meaning\n")
+			for _, meaning := range data.Meaning {
+				fmt.Fprintf(file, "- **%s**\n", meaning)
+			}
+			fmt.Fprintf(file, "## Examples\n")
+			for _, examples := range data.Examples {
+				fmt.Fprintf(file, "- **%s**\n", examples)
+			}
+			fmt.Fprintf(file, "## Features\n")
 			for _, feature := range data.Features {
-				fmt.Fprintf(file, "- **%s** \n", feature)
+				fmt.Fprintf(file, "- **%s**\n", feature)
 			}
 		}
 		os.Exit(0)

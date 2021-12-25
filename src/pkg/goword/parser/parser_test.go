@@ -21,6 +21,7 @@ func TestWordParser(t *testing.T) {
 							"== hallo ({{Sprache|Deutsch}}) ==",
 							"=== {{Wortart|Interjektion|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===",
 							"{{Wortart|Abkürzung|Deutsch}}..{{Wortart|Interjektion|Deutsch}}",
+							"{{Wortart|Konjugierte Form|Deutsch}}",
 						},
 					},
 				},
@@ -105,7 +106,7 @@ func TestWordParser(t *testing.T) {
 
 	expected := []*models.Word{
 		{
-			Type: []string{"Interjektion", "Grußformel", "Abkürzung", "Interjektion"},
+			Type: []string{"Interjektion", "Grußformel", "Abkürzung", "Interjektion", "Konjugierte Form"},
 		},
 		{
 			IPA: []string{"ˈhalo", "haˈloː"},

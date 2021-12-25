@@ -137,7 +137,7 @@ func GetSections(article models.Article) (*models.Word, error) {
 
 // GetWordType provides the grammatic type of the desired word
 func GetWordType(title string, lines []string, wordObject *models.Word) {
-	re := regexp.MustCompile(`Wortart\|([a-zA-Zßäüö]{1,})\|Deutsch`)
+	re := regexp.MustCompile(`Wortart\|([a-zA-Z\sßäüö]{1,})\|Deutsch`)
 
 	if checkTitleMatches := re.FindAllStringSubmatch(title, -1); len(checkTitleMatches) > 0 {
 		for _, match := range checkTitleMatches {

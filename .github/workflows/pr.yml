@@ -15,29 +15,39 @@ jobs:
     - uses: actions/checkout@v2
     - name: generate-word
       run: |
-        # Get a random word from the existing list
-        NUM=$(echo $(( $RANDOM % 100 + 3 )))
-        n=1
-        word=""
-        while read line; do
-          n=$((n+1))
-          if [ $NUM == $n ]; then
-           word=$(echo $line | awk '{print $2}')
-          fi
-        done < wordslist/first1000.yaml
+        getWord() {
+          # Get a random word from the existing list
+          NUM=$(echo $(( $RANDOM % 100 + 3 )))
+          n=1
+          word=""
+          while read line; do
+            n=$((n+1))
+            if [ $NUM == $n ]; then
+             word=$(echo $line | awk '{print $2}')
+             echo $word
+            fi
+          done < wordslist/first1000.yaml
+        }
+
+        validateWord() {
+          echo "validating word: ${word}"
+          files=`ls german/words`
+          for eachfile in $files
+          do
+             if [[ $eachfile == *"${word}.md"  ]]; then
+              echo "word ${word} already exist, trying a different one."
+              return 1
+             fi
+          done
+          echo "new word ${word} detected, calling goword"
+          return 0
+        }
         
         # Create the file with the proper file syntax
-        
-        echo "This is the word: ${word}"
+        word="$(getWord)"
 
-        files=`ls german/words`
-        for eachfile in $files
-        do
-           if [[ $eachfile == *"${word}.md"  ]]; then
-            echo "Word already exist, trying a different one."
-            exit 1
-            // todo add a retry logic
-           fi
+        while ! validateWord; do
+            word="$(getWord)"
         done
 
         pushd src/

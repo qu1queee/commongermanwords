@@ -173,7 +173,8 @@ func GetIPASection(lines []string, wordObject *models.Word) {
 func GetMeaningSection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Meaning = append(wordObject.Meaning, replaceIndexWithBrackets(line))
+
+			wordObject.Meaning = append(wordObject.Meaning, sanitizeLine(replaceIndexWithBrackets(line)))
 		}
 	}
 }
@@ -225,11 +226,15 @@ func GetTranslations(lines []string, wordObject *models.Word) {
 
 func replaceIndexWithBrackets(line string) string {
 	if strings.HasPrefix(line, ":[") {
-		// https://regex101.com/r/JGwzZM/1
-		m1 := regexp.MustCompile(`^:\[[\d\s,]{1,}\]\s`)
-		return m1.ReplaceAllString(line, "")
+		line = strings.Replace(line, ":[", "[", 1)
 	}
 	return line
+}
+
+// remove double marks
+func sanitizeLine(line string) string {
+	return strings.ReplaceAll(strings.ReplaceAll(line, "[[", ""), "]]", "")
+
 }
 
 func contains(source []string, match string) bool {

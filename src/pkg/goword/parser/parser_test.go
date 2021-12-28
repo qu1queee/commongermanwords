@@ -116,14 +116,14 @@ func TestWordParser(t *testing.T) {
 		},
 		{
 			Meaning: []string{
-				"''als Interjektion:'' ein [[Anruf]], mit dem man andere, auch Fremde, auf sich aufmerksam machen will",
+				"[1] als Interjektion: ein Anruf, mit dem man andere, auch Fremde, auf sich aufmerksam machen will",
 			},
 		},
 		{
 			Examples: []string{
-				"''Hallo,'' Max!",
-				"''Hallo'', Jana, bist du noch dran?",
-				"sample test: : ",
+				"[2, 3] Hallo, Max!",
+				"[3] Hallo, Jana, bist du noch dran?",
+				"[2] sample test: : ",
 			},
 		},
 		{

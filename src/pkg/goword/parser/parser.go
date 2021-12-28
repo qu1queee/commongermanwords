@@ -183,7 +183,7 @@ func GetMeaningSection(lines []string, wordObject *models.Word) {
 func GetUsageSection(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Examples = append(wordObject.Examples, replaceIndexWithBrackets(line))
+			wordObject.Examples = append(wordObject.Examples, sanitizeLine(replaceIndexWithBrackets(line)))
 		}
 	}
 }
@@ -231,9 +231,9 @@ func replaceIndexWithBrackets(line string) string {
 	return line
 }
 
-// remove double marks
+// remove double marks and single quotes
 func sanitizeLine(line string) string {
-	return strings.ReplaceAll(strings.ReplaceAll(line, "[[", ""), "]]", "")
+	return strings.ReplaceAll(strings.ReplaceAll(strings.ReplaceAll(line, "[[", ""), "]]", ""), `'`, "")
 
 }
 

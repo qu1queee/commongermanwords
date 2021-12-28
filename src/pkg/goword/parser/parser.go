@@ -215,8 +215,12 @@ func GetTranslations(lines []string, wordObject *models.Word) {
 			}
 		}
 	}
-	wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("es: %v", strings.Join(spanishTranslations, ", ")))
-	wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("en: %v", strings.Join(englishTranslations, ", ")))
+	if len(spanishTranslations) > 0 {
+		wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("es: %v", strings.Join(spanishTranslations, ", ")))
+	}
+	if len(englishTranslations) > 0 {
+		wordObject.Translation = append(wordObject.Translation, fmt.Sprintf("en: %v", strings.Join(englishTranslations, ", ")))
+	}
 }
 
 func replaceIndexWithBrackets(line string) string {

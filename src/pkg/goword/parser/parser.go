@@ -193,7 +193,7 @@ func GetUsageSection(lines []string, wordObject *models.Word) {
 func GetFeatures(lines []string, wordObject *models.Word) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Features = append(wordObject.Features, replaceIndexWithBrackets(line))
+			wordObject.Features = append(wordObject.Features, replaceAsterisk(sanitizeLine(replaceIndexWithBrackets(line))))
 		}
 	}
 }
@@ -227,6 +227,13 @@ func GetTranslations(lines []string, wordObject *models.Word) {
 func replaceIndexWithBrackets(line string) string {
 	if strings.HasPrefix(line, ":[") {
 		line = strings.Replace(line, ":[", "[", 1)
+	}
+	return line
+}
+
+func replaceAsterisk(line string) string {
+	if strings.HasPrefix(line, "*") {
+		line = strings.Replace(line, "*", "", 1)
 	}
 	return line
 }

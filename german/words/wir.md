@@ -1,25 +1,24 @@
 # wir
-## Type
-- _**Personalpronomen**_
-## Pronunciation
-- _**viːɐ̯**_
-## Meaning
-- **1. Person Plural; mehrere Personen, die sprechende eingeschlossen**
-## Examples
-- **''Wir,'' das sind mindestens zwei.**
-- **Mein Vater und ich reisen viel. Jetzt fahren ''wir'' nach Dänemark.**
-- **Herr, erbarme dich ''unser.''**
-- **Ich möchte Ihnen in ''unser'' aller Namen unseren Dank aussprechen.**
-- **Es sind ''unser'' drei erschienen.**
-- **Sie gaben ''uns'' keine Auskunft.**
-- **Sie erzählte ''uns'' alles.**
-- **Helft ''uns!''**
-- **Warum vertraust du ''uns'' nicht?**
-- **Er hat ''uns'' nicht gesehen.**
-- **Wartet auf ''uns!''**
-- **Wer hat ''uns'' gerufen?**
-- **Sie können sich auf ''uns'' verlassen.**
 ## Translations
-- **en: we**
-- **es: nosotros, nosotras**
-## Features
+- es: nosotros
+- en: we
+## Type
+- _Personalpronomen_
+## Pronunciation
+- **_viːɐ̯_**
+## Meaning
+- [1] 1. Person Plural; mehrere Personen, die sprechende eingeschlossen
+## Examples
+- [1] Wir, das sind mindestens zwei.
+- [1] Mein Vater und ich reisen viel. Jetzt fahren wir nach Dänemark.
+- [1] Herr, erbarme dich unser.
+- [1] Ich möchte Ihnen in unser aller Namen unseren Dank aussprechen.
+- [1] Es sind unser drei erschienen.
+- [1] Sie gaben uns keine Auskunft.
+- [1] Sie erzählte uns alles.
+- [1] Helft uns!
+- [1] Warum vertraust du uns nicht?
+- [1] Er hat uns nicht gesehen.
+- [1] Wartet auf uns!
+- [1] Wer hat uns gerufen?
+- [1] Sie können sich auf uns verlassen.

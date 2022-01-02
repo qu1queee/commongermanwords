@@ -1,9 +1,7 @@
 # hat
 ## Type
+- _Konjugierte Form_
 ## Pronunciation
-- _**hat**_
-## Meaning
-## Examples
-## Translations
+- **_hat_**
 ## Features
-- *** 3. Person Singular Indikativ Präsens Aktiv des Verbs '''[[haben]]'''**
+-  3. Person Singular Indikativ Präsens Aktiv des Verbs haben

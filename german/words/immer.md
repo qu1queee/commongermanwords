@@ -1,19 +1,18 @@
 # immer
-## Type
-- _**Adverb**_
-## Pronunciation
-- _**ˈɪmɐ**_
-## Meaning
-- **zu [[jede]]r [[Zeit]]**
-- **in [[häufig]] [[wiederkehrend]]en Intervallen**
-- **:[2a] ''immer wenn'':  jedes Mal, wenn**
-- **''immer + Komparativ:'' weist auf eine sich zeitlich ändernde Intensität der Steigerung hin**
-## Examples
-- **Er blieb ihr ''immer'' treu.**
-- **Warum rennst du denn ''immer'' so?**
-- **:[2a] ''Immer'' wenn ich ihn treffe, grüßt er freundlich.**
-- **''Immer'' häufiger gehören die Senioren zu den Opfern.**
 ## Translations
-- **en: always**
-- **es: siempre**
-## Features
+- es: siempre
+- en: always
+## Type
+- _Adverb_
+## Pronunciation
+- **_ˈɪmɐ_**
+## Meaning
+- [1] zu jeder Zeit
+- [2] in häufig wiederkehrenden Intervallen
+- [2a] immer wenn:  jedes Mal, wenn
+- [3] immer + Komparativ: weist auf eine sich zeitlich ändernde Intensität der Steigerung hin
+## Examples
+- [1] Er blieb ihr immer treu.
+- [2] Warum rennst du denn immer so?
+- [2a] Immer wenn ich ihn treffe, grüßt er freundlich.
+- [3] Immer häufiger gehören die Senioren zu den Opfern.

@@ -1,18 +1,17 @@
 # vom
-## Type
-- _**Kontraktion**_
-## Pronunciation
-- _**fɔm**_
-## Meaning
-- **''Kurzform von:'' [[von]] [[dem]]**
-- **''Kurzform von:'' von [[einem]]**
-## Examples
-- **''Vom'' Frühjahr an wurde das Wetter besser.**
-- **''Vom'' Haus aus gesehen geschah der Unfall auf der linken Seite.**
-- **Der Schinken ist ''vom'' Schwein.**
-- **Er kommt ''vom'' Dorf.**
-- **Sie wirkt wie ''vom'' wilden Affen gebissen.**
-- **Das Gerät ist wohl ''vom'' Laster gefallen.**
 ## Translations
-- **en: from**
-## Features
+- en: from
+## Type
+- _Kontraktion_
+## Pronunciation
+- **_fɔm_**
+## Meaning
+- [1] Kurzform von: von dem
+- [2] Kurzform von: von einem
+## Examples
+- [1] Vom Frühjahr an wurde das Wetter besser.
+- [1] Vom Haus aus gesehen geschah der Unfall auf der linken Seite.
+- [2] Der Schinken ist vom Schwein.
+- [2] Er kommt vom Dorf.
+- [2] Sie wirkt wie vom wilden Affen gebissen.
+- [2] Das Gerät ist wohl vom Laster gefallen.

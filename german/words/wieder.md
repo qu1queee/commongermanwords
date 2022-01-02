@@ -1,16 +1,15 @@
 # wieder
-## Type
-- _**Adverb**_
-## Pronunciation
-- _**ˈviːdɐ**_
-## Meaning
-- **ein oder mehrere weitere [[Mal]]e**
-- **zeigt an, dass ein früherer Zustand hergestellt wird**
-## Examples
-- **''Wieder'' stehst du in der Tür.**
-- **''Wieder'' und ''wieder'' zogen Wolken auf, und es regnete.**
-- **Er soll ''wieder'' gesund werden.**
 ## Translations
-- **en: again**
-- **es: nuevamente**
-## Features
+- es: nuevamente
+- en: again
+## Type
+- _Adverb_
+## Pronunciation
+- **_ˈviːdɐ_**
+## Meaning
+- [1] ein oder mehrere weitere Male
+- [2] zeigt an, dass ein früherer Zustand hergestellt wird
+## Examples
+- [1] Wieder stehst du in der Tür.
+- [1] Wieder und wieder zogen Wolken auf, und es regnete.
+- [2] Er soll wieder gesund werden.

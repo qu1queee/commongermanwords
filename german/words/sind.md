@@ -1,13 +1,12 @@
 # sind
 ## Type
+- _Konjugierte Form_
 ## Pronunciation
-- _**zɪnt**_
-## Meaning
+- **_zɪnt_**
 ## Examples
-- **Joachim Ringelnatz: [[:s:An Land|An Land]]: "Wir ''sind'' betrunken wie die Wellen"**
-- **[[:s:Die Gedanken sind frei|Die Gedanken ''sind'' frei]]**
-- ** sind ({{Sprache|Estnisch}}) **
-## Translations
+- [1] Joachim Ringelnatz: :s:An Land|An Land: "Wir sind betrunken wie die Wellen"
+- [2] :s:Die Gedanken sind frei|Die Gedanken sind frei
+-  sind ({{Sprache|Estnisch}}) 
 ## Features
-- **1. Person Plural Präsens Indikativ des Verbs '''[[sein]]'''**
-- **3. Person Plural Präsens Indikativ des Verbs '''[[sein]]'''**
+- [1] 1. Person Plural Präsens Indikativ des Verbs sein
+- [2] 3. Person Plural Präsens Indikativ des Verbs sein

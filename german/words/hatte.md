@@ -1,10 +1,8 @@
 # hatte
 ## Type
+- _Konjugierte Form_
 ## Pronunciation
-- _**ˈhatə**_
-## Meaning
-## Examples
-## Translations
+- **_ˈhatə_**
 ## Features
-- ***1. Person Singular Indikativ Präteritum Aktiv des Verbs '''[[haben]]'''**
-- ***3. Person Singular Indikativ Präteritum Aktiv des Verbs '''[[haben]]'''**
+- 1. Person Singular Indikativ Präteritum Aktiv des Verbs haben
+- 3. Person Singular Indikativ Präteritum Aktiv des Verbs haben

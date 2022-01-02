@@ -102,6 +102,18 @@ func TestWordParser(t *testing.T) {
 				},
 			},
 		},
+		{
+			Language: map[string][]*models.Block{
+				"Deutsch": {
+					{
+						Title: "Grammatische Merkmale",
+						Lines: []string{
+							"*1. Person Singular Indikativ Präteritum Aktiv des Verbs '''[[sagen]]'''",
+						},
+					},
+				},
+			},
+		},
 	}
 
 	expected := []*models.Word{
@@ -130,6 +142,11 @@ func TestWordParser(t *testing.T) {
 			Translation: []string{
 				"es: oiga, en",
 				"en: hi",
+			},
+		},
+		{
+			Features: []string{
+				"1. Person Singular Indikativ Präteritum Aktiv des Verbs sagen",
 			},
 		},
 	}

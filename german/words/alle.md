@@ -1,15 +1,15 @@
 # alle
 ## Translations
-- **es: agotado**
+- es: agotado
 ## Type
-- _**Adverb**_
-- _**Deklinierte Form**_
+- _Adverb_
+- _Deklinierte Form_
 ## Pronunciation
-- _**ˈalə**_
+- **_ˈalə_**
 ## Meaning
-- **[1] mitteldeutsch und norddeutsch, {{ugs.|:}} leer, nicht mehr vorrätig**
+- [1] mitteldeutsch und norddeutsch, {{ugs.|:}} leer, nicht mehr vorrätig
 ## Examples
-- **[1] Das Bier ist alle, wir sollten neues kaufen.**
+- [1] Das Bier ist alle, wir sollten neues kaufen.
 ## Features
-- ***feminine Singular- und Pluralform, Nominativ und Akkusativ des Indefinitpronomens '''[[all]]'''**
-- ***siehe auch: [[aller]], [[alles]], [[allen]], [[allem]]**
+- feminine Singular- und Pluralform, Nominativ und Akkusativ des Indefinitpronomens all
+- siehe auch: aller, alles, allen, allem

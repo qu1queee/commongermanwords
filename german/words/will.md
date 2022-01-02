@@ -1,10 +1,8 @@
 # will
 ## Type
+- _Konjugierte Form_
 ## Pronunciation
-- _**vɪl**_
-## Meaning
-## Examples
-## Translations
+- **_vɪl_**
 ## Features
-- ***1. Person Singular Indikativ Präsens Aktiv des Verbs '''[[wollen]]'''**
-- ***3. Person Singular Indikativ Präsens Aktiv des Verbs '''[[wollen]]'''**
+- 1. Person Singular Indikativ Präsens Aktiv des Verbs wollen
+- 3. Person Singular Indikativ Präsens Aktiv des Verbs wollen

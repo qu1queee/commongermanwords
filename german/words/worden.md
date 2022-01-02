@@ -1,11 +1,10 @@
 # worden
 ## Type
+- _Partizip II_
 ## Pronunciation
-- _**ˈvɔʁdən**_
-- _**ˈvɔʁdn̩**_
-## Meaning
+- **_ˈvɔʁdən_**
+- **_ˈvɔʁdn̩_**
 ## Examples
-- **Das Kind ist gesucht ''worden.''**
-## Translations
+- [1] Das Kind ist gesucht worden.
 ## Features
-- ***Partizip Perfekt von [[werden]] als [[Hilfsverb]]. In diesem Fall steckt die Hauptaussage in dem Verb, das mit Hilfe von ''worden'' ins Perfekt gesetzt wurde, - anders als bei dem zweiten Partizip Perfekt zu ''werden:'' [[geworden]].**
+- Partizip Perfekt von werden als Hilfsverb. In diesem Fall steckt die Hauptaussage in dem Verb, das mit Hilfe von worden ins Perfekt gesetzt wurde, - anders als bei dem zweiten Partizip Perfekt zu werden: geworden.

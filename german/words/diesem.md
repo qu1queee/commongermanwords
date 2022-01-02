@@ -1,11 +1,9 @@
 # diesem
 ## Type
+- _Deklinierte Form_
 ## Pronunciation
-- _**ˈdiːzəm**_
-- _**ˈdiːzm̩**_
-## Meaning
-## Examples
-## Translations
+- **_ˈdiːzəm_**
+- **_ˈdiːzm̩_**
 ## Features
-- ***Dativ Singular Maskulinum des Demonstrativpronomens '''[[dies]]'''**
-- ***Dativ Singular Neutrum des Demonstrativpronomens '''[[dies]]'''**
+- Dativ Singular Maskulinum des Demonstrativpronomens dies
+- Dativ Singular Neutrum des Demonstrativpronomens dies

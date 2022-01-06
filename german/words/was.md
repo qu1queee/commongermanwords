@@ -1,7 +1,7 @@
 # was
 ## Translations
-- es: algo
-- en: what
+- es: algo, que
+- en: what, something
 ## Type
 - _Pronomen_
 ## Pronunciation

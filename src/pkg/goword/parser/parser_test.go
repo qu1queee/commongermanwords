@@ -140,8 +140,8 @@ func TestWordParser(t *testing.T) {
 		},
 		{
 			Translation: []string{
-				"es: oiga, en",
-				"en: hi",
+				"es: oiga, hola, en, junto a",
+				"en: hi, hello",
 			},
 		},
 		{

@@ -201,8 +201,8 @@ func GetFeatures(lines []string, wordObject *models.Word) {
 // GetTranslations provides a selected list of translations
 // despite multiple available languages
 func GetTranslations(lines []string, wordObject *models.Word) {
-	esRgx := regexp.MustCompile(`(es\|)([a-z]{1,})(}})`)
-	enRgx := regexp.MustCompile(`(en\|)([a-z]{1,})(}})`)
+	esRgx := regexp.MustCompile(`(es\|)([a-z\s]{1,})(}})`)
+	enRgx := regexp.MustCompile(`(en\|)([a-z\s]{1,})(}})`)
 
 	var englishTranslations, spanishTranslations []string
 
@@ -256,10 +256,16 @@ func contains(source []string, match string) bool {
 
 func getTranslationMatch(regx *regexp.Regexp, line string) []string {
 	var translations []string
-	if matches := regx.FindStringSubmatch(line); len(matches) > 0 {
-		for index, translation := range matches {
-			if index == 2 {
-				translations = append(translations, translation)
+	if matches := regx.FindAllStringSubmatch(line, 3); len(matches) > 0 {
+		for _, match := range matches {
+			for index, translation := range match {
+				if index == 2 {
+					// limit translations per line to two
+					if len(translations) < 2 {
+						translations = append(translations, translation)
+					}
+
+				}
 			}
 		}
 	}

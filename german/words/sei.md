@@ -4,6 +4,7 @@
 ## Pronunciation
 - **_zaɪ̯_**
 ## Features
+### Konjugierte Form
 -  Imperativ Singular Präsens des Verbs sein
 -  1. Person Singular Konjunktiv I Präsens des Verbs sein
 -  3. Person Singular Konjunktiv I Präsens des Verbs sein

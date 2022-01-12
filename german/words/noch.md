@@ -1,17 +1,19 @@
 # noch
 ## Translations
 - es: tampoco
-- en: still
+- en: still, yet
 ## Type
 - _Adverb_
 ## Pronunciation
 - **_nɔx_**
 ## Meaning
+### Adverb
 - [1] des Weiteren
 - [2] zukünftig
 - [3] bis jetzt, zur Zeit, gegenwärtig
 - [4] auch nicht
 ## Examples
+### Adverb
 - [1] Ein Termin wird nicht genügen, wir sollten noch einen vereinbaren.
 - [2] Wir sollten noch einen Termin vereinbaren, das haben wir bisher versäumt.
 - [3] Noch bin ich der Chef.

@@ -1,17 +1,19 @@
 # zwischen
 ## Translations
 - es: entre
-- en: between
+- en: between, among
 ## Type
 - _Präposition_
 ## Pronunciation
 - **_ˈt͡svɪʃn̩_**
 ## Meaning
+### Präposition
 - [1] die genannten Gegenstände oder Personen zu beiden oder mehreren Seiten habend
 - [1a] mit Dativ, örtlich: Beschreibung eines Ortes, Bestandteil einer Antwort auf die Frage mit „wo“
 - [1b] mit Akkusativ, örtlich: Beschreibung einer Richtung, Bestandteil einer Antwort auf die Frage mit „wohin“
 - [2] mit Dativ: Teil der genannten Gruppe oder Menge seiend
 ## Examples
+### Präposition
 - [1a] Zwischen den Halbzeiten eines Fußballspiels liegt eine Pause von fünfzehn Minuten.
 - [1a] Das Meer zwischen Mittelamerika und Afrika ist der Atlantik.
 - [1a] Das Bad liegt zwischen der Küche und dem Wohnzimmer.

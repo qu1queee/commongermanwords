@@ -4,6 +4,7 @@
 ## Pronunciation
 - **_ˈhaːbə_**
 ## Features
+### Konjugierte Form
 -  1. Person Singular Indikativ Präsens Aktiv des Verbs haben
 -  1. Person Singular Konjunktiv I Präsens Aktiv des Verbs haben
 -  3. Person Singular Konjunktiv I Präsens Aktiv des Verbs haben

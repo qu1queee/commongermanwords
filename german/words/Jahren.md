@@ -4,4 +4,5 @@
 ## Pronunciation
 - **_ˈjaːʁən_**
 ## Features
+### Deklinierte Form
 - Dativ Plural des Substantivs Jahr

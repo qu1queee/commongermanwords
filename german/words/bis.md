@@ -9,6 +9,11 @@
 ## Pronunciation
 - **_bɪs_**
 ## Meaning
+### Subjunktion
+- <br />
+- Temporale Subjunktion:
+- [1] bezeichnet den Zeitpunkt, an welchem das Geschehen des Hauptsatzes endet
+### Präposition
 - <br />
 - Präposition (fordert bei Nomen den Akkusativ); zur Bezeichnung des Endpunkts eines zeitlichen oder räumlichen Geschehens:<br />
 - [1] temporal: bezeichnet den Endzeitpunkt
@@ -23,10 +28,8 @@
 - [8] bis auf: schließt etwas/jemanden ein oder aus
 - [8a] einschließlich
 - [8b] ausgenommen
-- <br />
-- Temporale Subjunktion:
-- [1] bezeichnet den Zeitpunkt, an welchem das Geschehen des Hauptsatzes endet
 ## Examples
+### Präposition
 - <br />
 - Präposition:
 - [1] Bis nächsten Monat muss die Präsentation fertig sein.
@@ -64,6 +67,7 @@
 - [8a] Er hat den Film bis auf das letzte Bild verknipst.
 - [8b] Bis auf Max waren alle Gäste da, die sie eingeladen hatte.
 - [8b] Von der Band kenne ich alle Alben – bis auf das letzte.
+### Subjunktion
 - [1] Es war so lange still, bis ein Schüler zu reden begann.
 - [1] Ich bleibe im Kaufhaus, bis es zu regnen aufhört.
 - [1] Bis der Kuchen fertig ist, dauert es noch eine halbe Stunde.

@@ -1,14 +1,16 @@
 # Jahr
 ## Translations
-- en: year
+- en: year, age
 ## Type
 - _Substantiv_
 ## Pronunciation
 - **_jaːɐ̯_**
 ## Meaning
+### Substantiv
 - [1] periodischer wiederkehrender Zeitraum, etwa ein Umlauf der Erde um die Sonne, 12 Monate, 365 beziehungsweise 366 Tage
 - [2] erreichtes Lebensalter, Lebensjahr, durch Zusätze punktuell qualifiziertes Jahr<sup>[1]</sup>
 ## Examples
+### Substantiv
 - [1] Der Bau des Hauses dauerte 2 Jahre.
 - [1] Er muss so ungefähr zwischen 30 und 40 Jahre alt sein.
 - [1] Das Projekt startet im August dieses Jahres.

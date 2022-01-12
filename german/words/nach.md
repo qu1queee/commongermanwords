@@ -1,17 +1,19 @@
 # nach
 ## Translations
-- es: hacia
-- en: to
+- es: hacia, por
+- en: to, at
 ## Type
 - _Präposition_
 ## Pronunciation
 - **_naːx_**
 ## Meaning
+### Präposition
 - [1] in Richtung (mit Dativ oder adverbialer Bestimmung des Ortes)
 - [2] Hervorhebung des Ziels einer im Satz ausgedrückten Tätigkeit; mit Dativ
 - [3] Relation, bei der das mit nach referenzierte Bezugsobjekt zeitlich oder räumlich (in Bewegungsrichtung) vor dem Subjekt liegt; mit Dativ
 - [4] jemandes Zitat aufgreifen; mit Dativ
 ## Examples
+### Präposition
 - [1] Nun muss ich nach Hause [gehen], aber ich komme bald zurück.
 - [1] veraltet: Sie reisen nach der Schweiz.
 - [1] „Ja, sie habe beim Friseur Riss den Plan geäußert, in ein paar Wochen nach der Tschechoslowakei zu reisen.“<ref>{{Literatur | Autorw:Katharina Adler (Autorin)|Katharina Adler | TitelIda | TitelErgRoman | Auflage1. | VerlagRowohlt Verlag | OrtReinbek bei Hamburg | Jahr2018 | ISBN978-3-498-00093-6 | Seiten386 }}.</ref>

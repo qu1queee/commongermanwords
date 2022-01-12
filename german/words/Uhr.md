@@ -1,16 +1,18 @@
 # Uhr
 ## Translations
-- es: reloj
-- en: clock
+- es: reloj, hora
+- en: clock, watch
 ## Type
 - _Substantiv_
 ## Pronunciation
 - **_uːɐ̯_**
 ## Meaning
+### Substantiv
 - [1] Instrument zur Messung der Zeit, Chronometer
 - [2] Zusatz zur (offiziellen) Zeitangabe, zur Frage nach dem Zeitpunkt; siehe auch: Verzeichnis:Deutsch/Uhrzeit|Übersicht der Uhrzeiten im Deutschen
 - [3] fast ausschließlich in zusammengesetzten Substantiven: Gerät zur Messung der Durchflussmenge, Durchströmmenge oder zur Anzeige des Flüssigkeitsstands
 ## Examples
+### Substantiv
 - [1] Ach du Schreck, meine Uhr ist stehen geblieben.
 - [1] Wo habe ich denn meine Uhr hingelegt?
 - [1] Die Uhr ist stehengeblieben.

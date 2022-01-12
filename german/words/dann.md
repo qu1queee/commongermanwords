@@ -1,17 +1,19 @@
 # dann
 ## Translations
-- es: luego
+- es: luego, entonces
 - en: then
 ## Type
 - _Adverb_
 ## Pronunciation
 - **_dan_**
 ## Meaning
+### Adverb
 - [1] zu einem späteren Zeitpunkt oder einer späteren Zeitspanne in der baldigen Zukunft
 - [2] in der Reihenfolge anschließend, hinterher, darauffolgend, daran anschließend
 - [3] zusätzlich zu etwas, d.h. einleitend zur Schilderung eines Inzidentes
 - [4] als Einleitung der Folge einer Bedingung, welche durch vorausgehendes wenn oder falls gekennzeichnet ist
 ## Examples
+### Adverb
 - [1] Wir kommen heute etwas später, dann wird es draußen schon dunkel sein.
 - [2] Den Trauerzug führte unser Vorsitzender an, dann kamen alle anderen.
 - [3] Mit dem Erdbeben kam dann auch noch das Problem mit den Kraftwerken.

@@ -7,10 +7,12 @@
 ## Pronunciation
 - **_vas_**
 ## Meaning
+### Pronomen
 - [1] Interrogativpronomen: sächliches Fragewort
 - [2] Indefinitpronomen, meist umgangssprachliche Kurzform für: etwas
 - [3] Relativpronomen: das sich auf ein Wort oder einen ganzen Satz beziehen kann
 ## Examples
+### Pronomen
 - [1] Was ist denn das da?
 - [1] Das magst du, was?
 - [1] „Dann wieder kommt es vor, dass sie plötzlich nicht wissen, was reden – […].“<ref>{{Literatur | Autorw:Max Frisch|Max Frisch | Titelw:Montauk (Erzählung)|Montauk | TitelErgEine Erzählung | Auflage1. | VerlagSuhrkamp | OrtFrankfurt am Main | Jahr1975 | ISBN3-518-02871-5 | Seiten114 | OnlineZitiert nach {{GBS|IvhbAAAAMAAJ|PA114|Hervorhebung"was reden"}} }}.</ref>

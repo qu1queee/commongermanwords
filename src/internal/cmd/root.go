@@ -50,22 +50,31 @@ learn new words.
 
 			if len(data.Meaning) > 0 {
 				fmt.Fprintf(file, "## Meaning\n")
-				for _, meaning := range data.Meaning {
-					fmt.Fprintf(file, "- %s\n", meaning)
+				for key, meaning := range data.Meaning {
+					fmt.Fprintf(file, "### %s\n", key)
+					for _, lines := range meaning {
+						fmt.Fprintf(file, "- %s\n", lines)
+					}
 				}
 			}
 
 			if len(data.Examples) > 0 {
 				fmt.Fprintf(file, "## Examples\n")
-				for _, examples := range data.Examples {
-					fmt.Fprintf(file, "- %s\n", examples)
+				for key, examples := range data.Examples {
+					fmt.Fprintf(file, "### %s\n", key)
+					for _, lines := range examples {
+						fmt.Fprintf(file, "- %s\n", lines)
+					}
 				}
 			}
 
 			if len(data.Features) > 0 {
 				fmt.Fprintf(file, "## Features\n")
-				for _, feature := range data.Features {
-					fmt.Fprintf(file, "- %s\n", feature)
+				for key, features := range data.Features {
+					fmt.Fprintf(file, "### %s\n", key)
+					for _, lines := range features {
+						fmt.Fprintf(file, "- %s\n", lines)
+					}
 				}
 			}
 		}

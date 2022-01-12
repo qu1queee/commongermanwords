@@ -4,6 +4,7 @@
 ## Pronunciation
 - **_ˈkaɪ̯nə_**
 ## Features
+### Deklinierte Form
 - Nominativ Singular Femininum attributiv des Indefinitpronomens kein
 - Akkusativ Singular Femininum attributiv des Indefinitpronomens kein
 - Nominativ Plural attributiv des Indefinitpronomens kein

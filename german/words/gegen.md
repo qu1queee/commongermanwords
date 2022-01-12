@@ -1,18 +1,20 @@
 # gegen
 ## Translations
-- es: contra
-- en: into
+- es: en contra de, contra
+- en: into, against
 ## Type
 - _Präposition_
 ## Pronunciation
 - **_ˈɡeːɡn̩_**
 - **_ˈɡeːɡŋ̍_**
 ## Meaning
+### Präposition
 - [1] Lokale (örtliche) Präposition mit dem Akkusativ, Richtungsverhältnis: dagegen, entgegen
 - [2] Modale Präposition mit dem Akkusativ: im Austausch für
 - [3] Temporale (zeitliche) Präposition mit dem Akkusativ: in Richtung auf, ungefähr um
 - [4] {{K|Gradpartikel}} ungefähr
 ## Examples
+### Präposition
 - [1] Er lehnte sich gegen die Wand.
 - [1] auch hier noch der lokale Gebrauch: Heute Abend spielt Stuttgart gegen Bremen.
 - [2] Abgabe nur gegen Barzahlung.

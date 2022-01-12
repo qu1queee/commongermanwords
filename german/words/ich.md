@@ -8,8 +8,10 @@
 - **_ɪç_**
 - **_ɪx_**
 ## Meaning
+### Personalpronomen
 - [1] bezeichnet die eigene Person; grammatikalisch: 1. Person Singular
 ## Examples
+### Personalpronomen
 - [1] Ich lerne Deutsch.
 - [1] Herr, erbarme dich meiner!
 - [1] Sie bat ihn statt meiner.

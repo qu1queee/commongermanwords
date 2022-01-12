@@ -7,6 +7,7 @@
 ## Pronunciation
 - **_ʊnt_**
 ## Meaning
+### Konjunktion
 - [1] Grammatik: verbindet allgemein Satzteile und Sätze; kann Satzzeichen (Komma, Semikolon, Punkt, Doppelpunkt, Ausrufezeichen und Fragezeichen) ersetzen, ermöglicht Aufzählung, Beiordnung, Ergänzung, Summierung und Hinzufügung
 - [2] aufzählend, beiordnend
 - [3] anknüpfen|knüpft an
@@ -16,6 +17,7 @@
 - [7] herausstellend, entgegenstellend
 - [8] fragend
 ## Examples
+### Konjunktion
 - [1] Die Sonne scheint und es ist warm.
 - [2] Acht und eins sind neun.
 - [2] Emil, Paul und auch Alfred waren da.

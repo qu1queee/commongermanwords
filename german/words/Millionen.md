@@ -4,6 +4,7 @@
 ## Pronunciation
 - **_mɪˈli̯oːnən_**
 ## Features
+### Deklinierte Form
 - Nominativ Plural des Substantivs Million
 - Genitiv Plural des Substantivs Million
 - Dativ Plural des Substantivs Million

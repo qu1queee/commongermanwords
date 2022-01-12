@@ -1,12 +1,13 @@
 # werden
 ## Translations
-- es: volverse
-- en: become
+- es: volverse, llegar a ser
+- en: become, get
 ## Type
 - _Verb_
 ## Pronunciation
 - **_ˈveːɐ̯dn̩_**
 ## Meaning
+### Verb
 - [1] seinen Zustand ändern; einer Änderung unterlaufen
 - [2] in Zukunft geschehen; in Zukunft sein
 - *Als Hilfsverb:
@@ -15,6 +16,7 @@
 - ::[5] zur Passivbildung in Verbindung mit dem Partizip II
 - [6] Bibelsprache: entstehen
 ## Examples
+### Verb
 - [1] Dein Gesicht wird rot.
 - [1] Es wird langsam dunkel.
 - [2] Was wird aus ihm?

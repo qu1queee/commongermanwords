@@ -1,13 +1,14 @@
 # haben
 ## Translations
-- es: haber
-- en: have
+- es: haber, tener
+- en: have, have got
 ## Type
 - _Verb_
 ## Pronunciation
 - **_ˈhaːbn̩_**
 - **_ˈhaːbm̩_**
 ## Meaning
+### Verb
 - [1] Hilfsverb zur Bildung zusammensetzen|zusammengesetzter Tempus|Tempora
 - [2] {{K|trans.}} eine Sache besitzen
 - [3] {{K|trans.}} (eine Sache kann) etwas enthalten
@@ -17,6 +18,7 @@
 - [7] an etwas teilnehmen
 - [8] in der Redewendung „zu haben sein“: erhältlich sein, bei Personen: ohne Partnerbeziehung sein; bereit sein, eine Partnerbeziehung einzugehen
 ## Examples
+### Verb
 - [1] Er hat es in der Schule gelernt.
 - [1] „Ich hab’ mein Herz in Heidelberg verloren“ (ein Volkslied)
 - [2] Ich habe ein Haus.

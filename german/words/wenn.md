@@ -1,18 +1,20 @@
 # wenn
 ## Translations
-- es: cuando
-- en: when
+- es: cuando, si
+- en: when, as soon as
 ## Type
 - _Subjunktion_
 ## Pronunciation
 - **_vɛn_**
 ## Meaning
+### Subjunktion
 - [1] sobald
 - [2] temporal: sooft, während
 - [3] konditional: Einleitung eines hypothetischen Satzes
 - [4] ‚als wenn‘ oder ‚wie wenn‘: als ob; als sei es so (Vergleich mit Unwahrem)
 - [5] obwohl
 ## Examples
+### Subjunktion
 - [1] Wenn es Abend wird, werden wir aufhören zu arbeiten.
 - [2] Es wird rasch kühl, wenn die Sonne hinter einer Wolke verschwindet.
 - [3] Komm vorbei, wenn Du Lust hast!

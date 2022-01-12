@@ -1,13 +1,18 @@
 # im
+## Translations
+- es: en el, en la
+- en: in the
 ## Type
 - _Kontraktion_
 ## Pronunciation
 - **_ɪm_**
 ## Meaning
+### Kontraktion
 - [1] {{K|zeitlich}} Position innerhalb einer genannten Zeitspanne - wann?
 - [2] {{K|räumlich}} Position innerhalb eines genannten Ortes - wo?
 - [3] {{K|modal}} Beschreibung der Art und Weise - wie?
 ## Examples
+### Kontraktion
 - [1] Manche Menschen müssen im Alter ins Altersheim.
 - [1] Im April blühen die Anemonen.
 - [2] Wir befinden uns im Zentrum des Sturms.

@@ -4,5 +4,6 @@
 ## Pronunciation
 - **_vaːɐ̯_**
 ## Features
+### Konjugierte Form
 -  1. Person Singular Indikativ Präteritum des Verbs sein
 -  3. Person Singular Indikativ Präteritum des Verbs sein

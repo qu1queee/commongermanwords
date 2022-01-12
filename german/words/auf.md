@@ -1,7 +1,7 @@
 # auf
 ## Translations
-- es: arriba
-- en: on
+- es: arriba, sobre
+- en: on, onto
 - es: abierto
 - en: open
 ## Type
@@ -10,6 +10,7 @@
 ## Pronunciation
 - **_aʊ̯f_**
 ## Meaning
+### Präposition
 - [1] 
 - ::[1a] {{K|mit Dativ}} an der Oberseite von etwas
 - ::[1b] {{K|mit Akkusativ}} an die Oberseite von etwas
@@ -27,8 +28,10 @@
 - ::[5b] {{K|mit Akkusativ}} zu einer Örtlichkeit, die einem zu Füßen liegt
 - [6] in einer bestimmten Sprache
 - [7] bevorstehende festgelegte Zeitdauer
+### Adverb
 - [1] umgangssprachlich für „offen“
 ## Examples
+### Präposition
 - [1]
 - ::[1a] Er stand auf dem Dach.
 - ::[1b] Er stieg aufs Dach.
@@ -54,4 +57,5 @@
 - ::[5b] Wir fahren/ziehen aufs Land ( aus der Stadt), aber: Sie kommen ins Land. Die Tage ins Land gehen|gehen ins Land.)
 - [6] Das ist auf Deutsch geschrieben.
 - [7] Zinsen werden auf längere Zeit niedrig bleiben.
+### Adverb
 - [1] Die Tür ist auf.

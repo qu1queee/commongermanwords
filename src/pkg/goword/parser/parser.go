@@ -53,25 +53,27 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 
 	var auxBlock *models.Block
 	var languageName string
+	var currentType string
 
 	scanner, err := convertJSONtoLines(data, word)
 	if err != nil {
 		return nil, fmt.Errorf("an error ocurred when retrieving from wiktionary: %v", err)
 	}
 
-	//
 	// compile required regexp for retrieving language and block types:
 	// Wiktionary seems to be making the following distinction
 	// double equals sign for languages, see: == hallo ({{Sprache|Deutsch}}) ==
 	// triple equals sign for categories(blocks) under the same language,
 	// see: === {{Wortart|Interjektion|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===
-	//
 	reLanguageType := regexp.MustCompile(LANGUAGETYPEPARSER)
 	reBlockType := regexp.MustCompile(BLOCKTYPEPARSER)
+	reWordType := regexp.MustCompile(WORDTYPEREGEX)
+	blocktype := &models.WordTypes{}
+	blocktype.WordType = make(map[string][]*models.Block)
 
 	// init Article with the related Language map
 	wiktionaryArticle := models.Article{}
-	wiktionaryArticle.Language = make(map[string][]*models.Block)
+	wiktionaryArticle.Language = make(map[string]models.WordTypes)
 
 	// read all content lines and categorize by language with multiple blocks.
 	for i := 0; scanner.Scan(); i++ {
@@ -81,17 +83,40 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 				for id, entry := range entries {
 					if id == 2 {
 						languageName = entry
-						wiktionaryArticle.Language[languageName] = []*models.Block{}
 					}
 				}
 			}
 		}
-		if languageName == "" {
+
+		// just process contents of Deutsch language
+		if languageName == "" || languageName != "Deutsch" {
 			continue
 		}
 
+		// init map with blocktype content
+		if _, ok := wiktionaryArticle.Language[languageName]; ok {
+			wiktionaryArticle.Language[languageName] = *blocktype
+		} else {
+			wiktionaryArticle.Language[languageName] = models.WordTypes{}
+		}
+
+		// sanitize per line
 		if strings.Contains(line, "=") {
 			line = strings.Replace(line, "=", "", -1)
+		}
+
+		// when processing new types, init blocktype map with wordtype and a list
+		// of blocks
+		if matches := reWordType.FindStringSubmatch(line); len(matches) > 0 {
+			if matches[2] != "" {
+				currentType = matches[2]
+				blocktype.WordType[currentType] = []*models.Block{}
+			}
+
+		}
+		// bail out if wordtype was not found
+		if currentType == "" {
+			continue
 		}
 		if matches := reBlockType.FindStringSubmatch(line); len(matches) > 0 {
 			auxBlock = &models.Block{}
@@ -100,36 +125,43 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 			} else {
 				auxBlock.Title = matches[2]
 			}
-			wiktionaryArticle.Language[languageName] = append(wiktionaryArticle.Language[languageName], auxBlock)
+			// for current word type, append new blocks
+			blocktype.WordType[currentType] = append(blocktype.WordType[currentType], auxBlock)
 		} else {
 			if auxBlock == nil {
 				auxBlock = &models.Block{}
 			}
+			// for current block, append new lines
 			auxBlock.Lines = append(auxBlock.Lines, line)
 		}
-
 	}
+
 	return GetSections(wiktionaryArticle)
 }
 
 func GetSections(article models.Article) (*models.Word, error) {
 	wordObject := &models.Word{}
-	for _, block := range article.Language[DESIREDLANGUAGE] {
-		switch {
-		case strings.Contains(block.Title, SIEHEAUCH) || strings.Contains(block.Title, WORDTYPE):
-			GetWordType(block.Title, block.Lines, wordObject)
-		case block.Title == PRONUNCIATION:
-			GetIPASection(block.Lines, wordObject)
-		case block.Title == MEANING:
-			GetMeaningSection(block.Lines, wordObject)
-		case block.Title == EXAMPLES:
-			GetUsageSection(block.Lines, wordObject)
-		case block.Title == TRANSLATION:
-			GetTranslations(block.Lines, wordObject)
-		case block.Title == FEATURES:
-			GetFeatures(block.Lines, wordObject)
-		default:
-			// todo: enhance default behaviour
+	wordObject.Meaning = map[string][]string{}
+	wordObject.Examples = map[string][]string{}
+	wordObject.Features = map[string][]string{}
+	for wordtype, s := range article.Language[DESIREDLANGUAGE].WordType {
+		for _, block := range s {
+			switch {
+			case strings.Contains(block.Title, SIEHEAUCH) || strings.Contains(block.Title, WORDTYPE):
+				GetWordType(block.Title, block.Lines, wordObject)
+			case block.Title == PRONUNCIATION:
+				GetIPASection(block.Lines, wordObject)
+			case block.Title == MEANING:
+				GetMeaningSection(block.Lines, wordObject, wordtype)
+			case block.Title == EXAMPLES:
+				GetUsageSection(block.Lines, wordObject, wordtype)
+			case block.Title == TRANSLATION:
+				GetTranslations(block.Lines, wordObject)
+			case block.Title == FEATURES:
+				GetFeatures(block.Lines, wordObject, wordtype)
+			default:
+				// todo: enhance default behaviour
+			}
 		}
 	}
 	return wordObject, nil
@@ -170,30 +202,30 @@ func GetIPASection(lines []string, wordObject *models.Word) {
 }
 
 // GetMeaningSection consumes all examples of a word definition in German
-func GetMeaningSection(lines []string, wordObject *models.Word) {
+func GetMeaningSection(lines []string, wordObject *models.Word, wordtype string) {
 	for _, line := range lines {
 		if line != "" {
-
-			wordObject.Meaning = append(wordObject.Meaning, sanitizeLine(replaceIndexWithBrackets(line)))
+			wordObject.Meaning[wordtype] = append(wordObject.Meaning[wordtype], sanitizeLine(replaceIndexWithBrackets(line)))
 		}
 	}
 }
 
 // GetUsageSection consumes all examples of a word usage
-func GetUsageSection(lines []string, wordObject *models.Word) {
+func GetUsageSection(lines []string, wordObject *models.Word, wordtype string) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Examples = append(wordObject.Examples, sanitizeLine(replaceIndexWithBrackets(line)))
+			wordObject.Examples[wordtype] = append(wordObject.Examples[wordtype], sanitizeLine(replaceIndexWithBrackets(line)))
 		}
 	}
 }
 
 // GetFeatures consumes all grammatical features of a word usage
 // todo: missing unit test
-func GetFeatures(lines []string, wordObject *models.Word) {
+func GetFeatures(lines []string, wordObject *models.Word, wordType string) {
 	for _, line := range lines {
 		if line != "" {
-			wordObject.Features = append(wordObject.Features, replaceAsterisk(sanitizeLine(replaceIndexWithBrackets(line))))
+			wordObject.Features[wordType] = append(wordObject.Features[wordType], replaceAsterisk(sanitizeLine(replaceIndexWithBrackets(line))))
+
 		}
 	}
 }

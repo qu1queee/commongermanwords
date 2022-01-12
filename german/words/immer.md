@@ -1,17 +1,19 @@
 # immer
 ## Translations
 - es: siempre
-- en: always
+- en: always, every time
 ## Type
 - _Adverb_
 ## Pronunciation
 - **_ˈɪmɐ_**
 ## Meaning
+### Adverb
 - [1] zu jeder Zeit
 - [2] in häufig wiederkehrenden Intervallen
 - [2a] immer wenn:  jedes Mal, wenn
 - [3] immer + Komparativ: weist auf eine sich zeitlich ändernde Intensität der Steigerung hin
 ## Examples
+### Adverb
 - [1] Er blieb ihr immer treu.
 - [2] Warum rennst du denn immer so?
 - [2a] Immer wenn ich ihn treffe, grüßt er freundlich.

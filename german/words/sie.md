@@ -1,12 +1,13 @@
 # sie
 ## Translations
-- es: ella
-- en: she
+- es: ella, ellos
+- en: she, her
 ## Type
 - _Personalpronomen_
 ## Pronunciation
 - **_ziː_**
 ## Meaning
+### Personalpronomen
 - [1] 3. Person Singular, weiblich
 - ::[1a] im Nominativ
 - ::[1b] im Akkusativ
@@ -14,6 +15,7 @@
 - ::[2a] im Nominativ
 - ::[2b] im Akkusativ
 ## Examples
+### Personalpronomen
 - [1a] Die Frau holte Wein, später reichte sie ihn den Gästen.
 - [1b] Das ist meine Schokolade, gib sie mir!
 - [2a] Da kommen die Nachbarn. Eigentlich sind sie ja ganz nett.

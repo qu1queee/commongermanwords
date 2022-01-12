@@ -1,15 +1,17 @@
 # von
 ## Translations
 - es: de
-- en: from
+- en: from, about
 ## Type
 - _Präposition_
 ## Pronunciation
 - **_fɔn_**
 ## Meaning
+### Präposition
 - [1] mit Dativ: Ursprung räumlicher oder zeitlicher Veränderung, Herkunft, Gegenstand der Betrachtung, Ursache, sonstige Verhältnisse
 - [2] getrennt stehender Namenszusatz vor Familiennamen (des ehemaligen Adels) und Adelsprädikat (bei Namen adeliger Personen)
 ## Examples
+### Präposition
 - [1] Der Zug fährt vom (von dem) Gleis 1.
 - [1] Die Woche geht von Montag bis Sonntag.
 - [1] Das Schärfen von Messern ist eine Kunst.

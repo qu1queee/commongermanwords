@@ -1,14 +1,16 @@
 # wir
 ## Translations
-- es: nosotros
+- es: nosotros, nosotras
 - en: we
 ## Type
 - _Personalpronomen_
 ## Pronunciation
 - **_viːɐ̯_**
 ## Meaning
+### Personalpronomen
 - [1] 1. Person Plural; mehrere Personen, die sprechende eingeschlossen
 ## Examples
+### Personalpronomen
 - [1] Wir, das sind mindestens zwei.
 - [1] Mein Vater und ich reisen viel. Jetzt fahren wir nach Dänemark.
 - [1] Herr, erbarme dich unser.

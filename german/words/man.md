@@ -8,7 +8,9 @@
 ## Pronunciation
 - **_man_**
 ## Meaning
+### Adverb
 - [1] {{K|norddeutsch|ftzur Bekräftigung und ohne wörtliche Bedeutung}} 
+### Indefinitpronomen
 - [1] die Leute (im Sinne von: die Öffentlichkeit)
 - [2] gedachte Person, die nach eigenem Ermessen richtig handelt (meist bezogen auf gesellschaftliche Umgangsformen)
 - [3] irgendjemand, irgendetwas (im Sinne einer bestimmten Person, zum Beispiel des Sprechers selbst, eines Unbekannten oder einer Personengruppe)
@@ -16,7 +18,7 @@
 - [5] oft ironisch: statt eines Personalpronomens der zweiten oder dritten Person (du, Sie, er/sie, ihr, sie), um ein Distanzverhältnis in der Gesprächssituation anzudeuten
 - [6] ich, wir (die eigene Aussage oder Handlung auf die Allgemeinheit übertragend)
 ## Examples
-- [1] Das lass man schön bleiben!
+### Indefinitpronomen
 - [1] Die Medizin hat in den letzten Jahren große Fortschritte gemacht: Schon heute kann man viele Krankheiten fast ohne Risiko durch eine Operation heilen.
 - [2] „Markus, man wäscht sich vor dem Essen die Hände!“
 - [3] Man kann davon ausgehen, dass diese Äpfel frisch sind.
@@ -26,3 +28,5 @@
 - [5] „Ach, war man heute wieder einmal krank?“
 - [6] Man könnte meinen, dass es an der Tür geklingelt hat.
 - [6] „Gestern auf der Party war es wirklich laut: Man konnte sich gar nicht mehr mit anderen unterhalten.“
+### Adverb
+- [1] Das lass man schön bleiben!

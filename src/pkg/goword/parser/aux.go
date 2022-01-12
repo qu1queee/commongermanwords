@@ -14,6 +14,7 @@ const (
 	LANGUAGETYPEPARSER = `(^={2}\s.*Sprache\|)(.*)(\}\}\)\s={2}$)`
 	// https://regex101.com/r/br7rzZ/1
 	BLOCKTYPEPARSER = `(^{\{)(.*)(\}\})|(^\s{\{)(.*)(\}\})`
+	WORDTYPEREGEX   = `(Wortart\|)([a-zA-Z\säüö]{1,})(\|)`
 	//
 
 	DESIREDLANGUAGE = "Deutsch"

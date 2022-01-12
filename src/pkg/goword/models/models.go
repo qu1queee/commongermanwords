@@ -23,12 +23,12 @@ type Block struct {
 }
 
 type WordTypes struct {
-	WordType map[string][]*Block
+	WordType map[string][]*Block `json:"wordtype,omitempty"`
 }
 
 // Article holds a word content from wiktionary where
 // multiple languages can be defined for the word, and
 // each language holds a list of content Blocks(e.g. translation)
 type Article struct {
-	Language map[string]WordTypes
+	Language map[string]WordTypes `json:"language,omitempty"`
 }

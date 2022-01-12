@@ -11,7 +11,6 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/davecgh/go-spew/spew"
 	"github.com/qu1queee/commongermanwords/src/pkg/goword/models"
 )
 
@@ -68,9 +67,7 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 	// see: === {{Wortart|Interjektion|Deutsch}}, {{Wortart|Grußformel|Deutsch}} ===
 	reLanguageType := regexp.MustCompile(LANGUAGETYPEPARSER)
 	reBlockType := regexp.MustCompile(BLOCKTYPEPARSER)
-
 	reWordType := regexp.MustCompile(WORDTYPEREGEX)
-
 	blocktype := &models.WordTypes{}
 	blocktype.WordType = make(map[string][]*models.Block)
 
@@ -91,19 +88,25 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 			}
 		}
 
+		// just process contents of Deutsch language
 		if languageName == "" || languageName != "Deutsch" {
 			continue
 		}
 
-		wiktionaryArticle.Language[languageName] = models.WordTypes{}
+		// init map with blocktype content
 		if _, ok := wiktionaryArticle.Language[languageName]; ok {
 			wiktionaryArticle.Language[languageName] = *blocktype
+		} else {
+			wiktionaryArticle.Language[languageName] = models.WordTypes{}
 		}
 
+		// sanitize per line
 		if strings.Contains(line, "=") {
 			line = strings.Replace(line, "=", "", -1)
 		}
 
+		// when processing new types, init blocktype map with wordtype and a list
+		// of blocks
 		if matches := reWordType.FindStringSubmatch(line); len(matches) > 0 {
 			if matches[2] != "" {
 				currentType = matches[2]
@@ -111,6 +114,7 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 			}
 
 		}
+		// bail out if wordtype was not found
 		if currentType == "" {
 			continue
 		}
@@ -121,11 +125,13 @@ func GetWordObject(data []byte, word string) (*models.Word, error) {
 			} else {
 				auxBlock.Title = matches[2]
 			}
+			// for current word type, append new blocks
 			blocktype.WordType[currentType] = append(blocktype.WordType[currentType], auxBlock)
 		} else {
 			if auxBlock == nil {
 				auxBlock = &models.Block{}
 			}
+			// for current block, append new lines
 			auxBlock.Lines = append(auxBlock.Lines, line)
 		}
 	}
@@ -138,12 +144,10 @@ func GetSections(article models.Article) (*models.Word, error) {
 	wordObject.Meaning = map[string][]string{}
 	wordObject.Examples = map[string][]string{}
 	wordObject.Features = map[string][]string{}
-	spew.Dump(article)
 	for wordtype, s := range article.Language[DESIREDLANGUAGE].WordType {
 		for _, block := range s {
 			switch {
 			case strings.Contains(block.Title, SIEHEAUCH) || strings.Contains(block.Title, WORDTYPE):
-				spew.Dump(block)
 				GetWordType(block.Title, block.Lines, wordObject)
 			case block.Title == PRONUNCIATION:
 				GetIPASection(block.Lines, wordObject)
@@ -160,7 +164,6 @@ func GetSections(article models.Article) (*models.Word, error) {
 			}
 		}
 	}
-	spew.Dump(wordObject)
 	return wordObject, nil
 }
 

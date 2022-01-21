@@ -17,7 +17,7 @@ jobs:
       run: |
         getWord() {
           # Get a random word from the existing list
-          NUM=$(echo $(( $RANDOM % 100 + 3 )))
+          NUM=$(echo $(( $RANDOM % 1000 + 3 )))
           n=1
           word=""
           while read line; do

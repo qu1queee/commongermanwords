@@ -2,7 +2,7 @@ name: PR Word Card
 
 on:
   schedule:
-    - cron:  '10 06,08,10,12,14,16,18,20,21,22,00 * * *'
+    - cron:  '10 00 * * *'
 
 
 jobs:

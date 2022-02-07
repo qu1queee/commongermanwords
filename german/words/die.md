@@ -1,25 +1,11 @@
-# die
-## Translations
-- es: el, la
-- en: the
-- es: que
+# Die
 ## Type
-- _Artikel_
-- _Pronomen_
+- _Substantiv_
 ## Pronunciation
-- **_diː_**
+- **_daɪ_**
 ## Meaning
-### Artikel
-- [1] weiblicher bestimmter Artikel im Nominativ und Akkusativ Singular
-- [2] bestimmter Artikel im Nominativ und Akkusativ Plural
-### Pronomen
-- [1] {{K|Relativpronomen}} welche (Singular und Plural)
-- [2] {{K|Personalpronomen|ftmündlich, regional}} sie (Singular und Plural)
+- [1] Halbleiter-Chip-Plättchen ohne (Plastik-/Keramik-)Gehäuse
 ## Examples
-### Artikel
-- [1] Sie war die Frau des Präsidenten.
-- [2] Die Männer fällten die Bäume.
-### Pronomen
-- [1] Die Männer, die im Wald gearbeitet haben, machen jetzt eine Pause.
-- [2] Hast du die gesehen?
-- [2] Die ist mir vielleicht eine!
+- [1] Das Die wird bis zu 98 °C heiß.
+- [1] Das Die ist die Siliziumfläche, welches den eigentlichen integrierten Schaltkreis innerhalb eines Mikrochips beinhaltet.<ref>{{Internetquelle|urlhttp://www.qdev.de/?forcelangde&locationphotos/semiconductormacros|titel Halbleiter-Makrofotos|zugriff2016-01-15}}</ref>
+- [1] Bei der Herstellung der CPU-Dice hat Intel 96 % Ausschuss.

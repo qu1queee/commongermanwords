@@ -21,7 +21,19 @@ learn new words.
 	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		word := viper.GetString("word")
+		compactEnable := viper.GetBool("compact")
+
 		if data, err := parser.GetArticle(word); err == nil {
+			if compactEnable {
+				compactFile, err := os.Create(fmt.Sprintf("%v.txt", word))
+				if err != nil {
+					log.Fatal(err)
+				}
+				// Improve on full url, as its hardcoded
+				fmt.Fprintf(compactFile, "%s /%s/\n %s\n  %s\n\nSee full definition at https://github.com/qu1queee/commongermanwords/blob/main/german/words/%v.md\n", word, data.IPA[0], data.Type[0], data.Meaning[data.Type[0]][0], word)
+				os.Exit(0)
+			}
+
 			file, err := os.Create(fmt.Sprintf("%v.md", word))
 			if err != nil {
 				log.Fatal(err)
@@ -84,8 +96,9 @@ learn new words.
 
 func init() {
 	rootCmd.PersistentFlags().StringP("word", "w", "", "word to look up!")
+	rootCmd.PersistentFlags().BoolP("compact", "c", false, "generate compact output")
 	viper.BindPFlag("word", rootCmd.PersistentFlags().Lookup("word"))
-
+	viper.BindPFlag("compact", rootCmd.PersistentFlags().Lookup("compact"))
 }
 
 func Execute() {

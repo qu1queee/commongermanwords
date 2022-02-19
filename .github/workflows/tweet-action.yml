@@ -1,0 +1,32 @@
+on: [push]
+
+name: tweet!
+jobs:
+  tweet:
+    name: Tweet
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/setup-go@v2
+        with:
+          go-version: 1.17.x
+      - uses: actions/checkout@v2
+      - name: Tweet
+        env:
+          WORD_ID: ${{ github.event.head_commit.message }}
+          GOTWI_API_KEY: ${{ secrets.GOTWI_API_KEY }}
+          GOTWI_ACCESS_TOKEN_SECRET: ${{ secrets.GOTWI_ACCESS_TOKEN_SECRET }}
+          GOTWI_ACCESS_TOKEN: ${{ secrets.GOTWI_ACCESS_TOKEN }}
+          GOTWI_API_KEY_SECRET: ${{ secrets.GOTWI_API_KEY_SECRET }}
+          TWEET_CONTENT_PATH: ${{ secrets.TWEET_CONTENT_PATH }}
+        run: |
+          echo $COMMIT_MESSAGE
+          echo $WORD_ID
+          # TODOs: need to validate that pr is a new word
+          pushd src/
+            go build -o goword cmd/goword/main.go
+            go build -o tweet cmd/tweet/main.go
+            ./goword -w ${WORD_ID} -c
+            rm goword
+            cat ${WORD_ID}.txt
+          popd

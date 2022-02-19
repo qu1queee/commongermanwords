@@ -10,7 +10,7 @@ jobs:
   tweet:
     name: Tweet
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - uses: actions/setup-go@v2
         with:
@@ -19,14 +19,14 @@ jobs:
       - name: Tweet
         env:
           WORD_ID: ${{ github.event.head_commit.message }}
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # GOTWI_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          # GOTWI_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-          # GOTWI_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-          # GOTWI_API_KEY_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-          # TWEET_CONTENT_PATH: ${{ secrets.TWEET_CONTENT_PATH }}
+          GOTWI_API_KEY: ${{ secrets.GOTWI_API_KEY }}
+          GOTWI_ACCESS_TOKEN_SECRET: ${{ secrets.GOTWI_ACCESS_TOKEN_SECRET }}
+          GOTWI_ACCESS_TOKEN: ${{ secrets.GOTWI_ACCESS_TOKEN }}
+          GOTWI_API_KEY_SECRET: ${{ secrets.GOTWI_API_KEY_SECRET }}
+          TWEET_CONTENT_PATH: ${{ secrets.TWEET_CONTENT_PATH }}
         run: |
           echo $COMMIT_MESSAGE
+          # TODOs: need to validate that pr is a new word
           pushd src/
             go build -o goword cmd/goword/main.go
             go build -o goword cmd/tweet/main.go

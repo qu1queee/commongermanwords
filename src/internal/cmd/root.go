@@ -29,8 +29,13 @@ learn new words.
 				if err != nil {
 					log.Fatal(err)
 				}
-				// Improve on full url, as its hardcoded
-				fmt.Fprintf(compactFile, "%s /%s/\n %s\n  %s\n\nSee full definition at https://github.com/qu1queee/commongermanwords/blob/main/german/words/%v.md\n", word, data.IPA[0], data.Type[0], data.Meaning[data.Type[0]][0], word)
+				// todo:  Improve on full url, as its hardcoded
+				// todo: this code needs to be converted to a func and minimized
+				if len(data.Meaning) == 0 {
+					fmt.Fprintf(compactFile, "%s /%s/\n %s\n  \nSee full definition at https://github.com/qu1queee/commongermanwords/blob/main/german/words/%v.md\n", word, data.IPA[0], data.Type[0], word)
+				} else {
+					fmt.Fprintf(compactFile, "%s /%s/\n %s\n  %s\n\nSee full definition at https://github.com/qu1queee/commongermanwords/blob/main/german/words/%v.md\n", word, data.IPA[0], data.Type[0], data.Meaning[data.Type[0]][0], word)
+				}
 				os.Exit(0)
 			}
 

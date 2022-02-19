@@ -18,15 +18,19 @@ jobs:
           GOTWI_ACCESS_TOKEN_SECRET: ${{ secrets.GOTWI_ACCESS_TOKEN_SECRET }}
           GOTWI_ACCESS_TOKEN: ${{ secrets.GOTWI_ACCESS_TOKEN }}
           GOTWI_API_KEY_SECRET: ${{ secrets.GOTWI_API_KEY_SECRET }}
-          TWEET_CONTENT_PATH: ${{ secrets.TWEET_CONTENT_PATH }}
         run: |
-          echo $COMMIT_MESSAGE
-          echo $WORD_ID
+          export WORD=$(echo ${WORD_ID} | cut -d' ' -f1)
+          echo "Word to process its: ${WORD}"
           # TODOs: need to validate that pr is a new word
           pushd src/
             go build -o goword cmd/goword/main.go
             go build -o tweet cmd/tweet/main.go
-            ./goword -w ${WORD_ID} -c
+            ./goword -w ${WORD} -c
             rm goword
-            cat ${WORD_ID}.txt
+
+            cat ${WORD}.txt
+
+            export TWEET_CONTENT_PATH=$(pwd)/"${WORD}".txt
+            ./tweet
+            rm tweet
           popd

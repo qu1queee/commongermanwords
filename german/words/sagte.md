@@ -2,7 +2,7 @@
 ## Type
 - _Konjugierte Form_
 ## Pronunciation
-- **_ˈzaːktə_**
+- **_[ˈzaːktə](https://commons.wikimedia.org/wiki/File:De-sagte.ogg)_**
 ## Features
 ### Konjugierte Form
 -  1. Person Singular Indikativ Präteritum Aktiv des Verbs sagen

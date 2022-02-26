@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_pʁoˈt͡sɛnt_**
+- **_[pʁoˈt͡sɛnt](https://commons.wikimedia.org/wiki/File:De-Prozent.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] {{K|kPl.}} Anteil von Hundert

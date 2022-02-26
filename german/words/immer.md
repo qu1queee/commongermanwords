@@ -5,7 +5,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_ˈɪmɐ_**
+- **_[ˈɪmɐ](https://commons.wikimedia.org/wiki/File:De-immer.ogg)_**
 ## Meaning
 ### Adverb
 - [1] zu jeder Zeit

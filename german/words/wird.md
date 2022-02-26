@@ -2,7 +2,7 @@
 ## Type
 - _Konjugierte Form_
 ## Pronunciation
-- **_vɪʁt_**
+- **_[vɪʁt](https://commons.wikimedia.org/wiki/File:De-wird.ogg)_**
 ## Features
 ### Konjugierte Form
 -  3. Person Singular Indikativ Präsens Aktiv des Verbs werden

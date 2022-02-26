@@ -4,24 +4,24 @@
 - en: but
 - en: again
 ## Type
-- _Konjugierte Form_
 - _Konjunktion_
 - _Modalpartikel_
 - _Adverb_
+- _Konjugierte Form_
 ## Pronunciation
-- **_ˈaːbɐ_**
+- **_[ˈaːbɐ](https://commons.wikimedia.org/wiki/File:De-aber.ogg)_**
 ## Meaning
+### Modalpartikel
+- [1] Ausdruck einer Verstärkung
+- [2] Ausdruck der Anteilnahme der sich äußernden Person, Ausdruck von Empfindungen
+### Adverb
+- [1] veraltet; noch in festen Wortverbindungen wie aber und aber vorkommend: abermals, noch einmal, wiederholt, immer wieder
 ### Konjunktion
 - [1] einen Gegensatz ausdrückend: jedoch, dagegen
 - [2] entgegen den Erwartungen: doch, indessen, jedoch
 - [3] eine Berichtigung, eine Einschränkung, eine Ergänzung ausdrückend: allerdings, doch, jedoch
 - [4] das anknüpfen|Anknüpfen an etwas ausdrückend: jedoch
 - [5] Ausdruck eines Einwands, einer Entgegnung
-### Modalpartikel
-- [1] Ausdruck einer Verstärkung
-- [2] Ausdruck der Anteilnahme der sich äußernden Person, Ausdruck von Empfindungen
-### Adverb
-- [1] veraltet; noch in festen Wortverbindungen wie aber und aber vorkommend: abermals, noch einmal, wiederholt, immer wieder
 ## Examples
 ### Konjunktion
 - [1] Ich gehe, aber du bleibst hier.

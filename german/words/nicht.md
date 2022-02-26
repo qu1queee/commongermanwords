@@ -4,7 +4,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_nɪçt_**
+- **_[nɪçt](https://commons.wikimedia.org/wiki/File:De-nicht.ogg)_**
 ## Meaning
 ### Adverb
 - [1] Partikel, die die Verneinung, die Negierung beziehungsweise die Negation ausdrückt

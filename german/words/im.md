@@ -5,7 +5,7 @@
 ## Type
 - _Kontraktion_
 ## Pronunciation
-- **_ɪm_**
+- **_[ɪm](https://commons.wikimedia.org/wiki/File:De-im.ogg)_**
 ## Meaning
 ### Kontraktion
 - [1] {{K|zeitlich}} Position innerhalb einer genannten Zeitspanne - wann?

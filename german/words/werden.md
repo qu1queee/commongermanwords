@@ -5,7 +5,7 @@
 ## Type
 - _Verb_
 ## Pronunciation
-- **_ˈveːɐ̯dn̩_**
+- **_[ˈveːɐ̯dn̩](https://commons.wikimedia.org/wiki/File:De-werden.ogg)_**
 ## Meaning
 ### Verb
 - [1] seinen Zustand ändern; einer Änderung unterlaufen

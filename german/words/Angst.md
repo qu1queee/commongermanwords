@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_aŋst_**
+- **_[aŋst](https://commons.wikimedia.org/wiki/File:De-Angst.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Gefühl der (existentiellen) Furcht oder Sorge, etwa bei einer Bedrohung

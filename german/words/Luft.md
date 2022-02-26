@@ -2,7 +2,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_lʊft_**
+- **_[lʊft](https://commons.wikimedia.org/wiki/File:De-Luft.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Nachname, Familienname

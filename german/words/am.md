@@ -2,7 +2,7 @@
 ## Type
 - _Kontraktion_
 ## Pronunciation
-- **_am_**
+- **_[am](https://commons.wikimedia.org/wiki/File:De-am.ogg)_**
 ## Meaning
 ### Kontraktion
 - [1] {{K|Österreich}} Angabe eines Ortes - auf dem

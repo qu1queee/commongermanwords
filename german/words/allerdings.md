@@ -5,8 +5,8 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_ˈalɐdɪŋs_**
-- **_alɐˈdɪŋs_**
+- **_[ˈalɐdɪŋs](https://commons.wikimedia.org/wiki/File:De-allerdings.ogg)_**
+- **_[alɐˈdɪŋs](https://commons.wikimedia.org/wiki/File:De-allerdings.ogg)_**
 ## Meaning
 ### Adverb
 - [1] unbetont: Kennzeichnung eines Widerspruches oder Einwandes

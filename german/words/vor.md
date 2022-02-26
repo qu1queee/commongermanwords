@@ -5,7 +5,7 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_foːɐ̯_**
+- **_[foːɐ̯](https://commons.wikimedia.org/wiki/File:De-vor.ogg)_**
 ## Meaning
 ### Präposition
 - [1] in zeitlicher Ordnung: früher, eher (das mit dem Dativ bezeichnete Objekt ist das nähere, jüngere)

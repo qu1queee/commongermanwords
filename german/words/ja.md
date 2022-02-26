@@ -3,20 +3,20 @@
 - en: yes
 - en: yes
 ## Type
-- _Interjektion_
 - _Antwortpartikel_
 - _Partikel_
+- _Interjektion_
 ## Pronunciation
-- **_jaː_**
+- **_[jaː](https://commons.wikimedia.org/wiki/File:De-ja.ogg)_**
 ## Meaning
-### Interjektion
-- [1] Ausruf der Begeisterung über einen Erfolg
 ### Antwortpartikel
 - [1] drückt Zustimmung, Einverständnis aus
 ### Partikel
 - [1] unbetont, nimmt Bezug auf das Wissen, das der Hörer bereits hat; meist in der gesprochenen Sprache verwendet; betont die Faktizität eines Aufforderungs- oder Aussagesatzes: bekanntlich (ist das so)
 - [2] betont, Ausdruck dringender Mahnung in Aufforderungssätzen, oft ohne eigenständige Bedeutung, nur zum Ausdruck der Dringlichkeit: unbedingt
 - [3] unbetont, leitet eine Verstärkung/Präzisierung des bereits Gesagten ein: sogar, sozusagen
+### Interjektion
+- [1] Ausruf der Begeisterung über einen Erfolg
 ## Examples
 ### Antwortpartikel
 - [1] „Surfst du im Internet?“ ‒ „Ja!“

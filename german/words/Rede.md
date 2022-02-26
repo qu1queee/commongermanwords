@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈʁeːdə_**
+- **_[ˈʁeːdə](https://commons.wikimedia.org/wiki/File:De-Rede.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Ansprache, Vortrag vor anderen Personen

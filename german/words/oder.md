@@ -5,7 +5,7 @@
 ## Type
 - _Konjunktion_
 ## Pronunciation
-- **_ˈoːdɐ_**
+- **_[ˈoːdɐ](https://commons.wikimedia.org/wiki/File:De-oder.ogg)_**
 ## Meaning
 ### Konjunktion
 - :adversative Konjunktion:

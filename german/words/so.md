@@ -5,21 +5,15 @@
 - es: de esta manera
 - en: so, such
 ## Type
-- _Interjektion_
 - _Konjunktion_
 - _Subjunktion_
 - _Adverb_
 - _Gradpartikel_
+- _Interjektion_
 ## Pronunciation
-- **_zɔ_**
-- **_zoː_**
+- **_[zoː](https://commons.wikimedia.org/wiki/File:De-so.ogg)_**
+- **_[zɔ](https://commons.wikimedia.org/wiki/File:De-so.ogg)_**
 ## Meaning
-### Adverb
-- [1] drückt aus, dass die Folge nur dann eintritt, wenn die vorangegangene Bedingung erfüllt wird; dann
-### Gradpartikel
-- [1] verstärkende Wirkung auf das Fokusobjekt
-### Interjektion
-- [1] umgangssprachlich: drückt den Beginn oder das Ende eines Abschnitts aus und dient meist gleichzeitig der Erregung von Aufmerksamkeit
 ### Konjunktion
 - [1] so … wie: drückt einen Vergleich aus
 - [2] umgangssprachlich: Einleitung einer wörtlichen Rede
@@ -29,7 +23,19 @@
 - [3] so dass/sodass: Festlegung einer Art und Weise
 - ::[3a] (als einteilige Subjunktion) → siehe auch sodass
 - ::[3b] (als mehrteilige Subjunktion)
+### Adverb
+- [1] drückt aus, dass die Folge nur dann eintritt, wenn die vorangegangene Bedingung erfüllt wird; dann
+### Gradpartikel
+- [1] verstärkende Wirkung auf das Fokusobjekt
+### Interjektion
+- [1] umgangssprachlich: drückt den Beginn oder das Ende eines Abschnitts aus und dient meist gleichzeitig der Erregung von Aufmerksamkeit
 ## Examples
+### Gradpartikel
+- [1] Ach, du bist ja so süß!!!
+- [1] Ich bin so hungrig.
+- [1] Ich habe schon so manche Unternehmensberater erlebt.
+- [1] Du bist so ein Bastard!
+- [1] So schätzt du also meine Freundschaft?!
 ### Interjektion
 - [1] So! Lasst uns anfangen.
 - [1] So! Habt ihr die Aufgabe beendet?
@@ -47,9 +53,3 @@
 - [3b] Ich schlug ihn so, dass er am Kopf blutete.
 ### Adverb
 - [1] Wirst du wieder gesund, so freue ich mich.
-### Gradpartikel
-- [1] Ach, du bist ja so süß!!!
-- [1] Ich bin so hungrig.
-- [1] Ich habe schon so manche Unternehmensberater erlebt.
-- [1] Du bist so ein Bastard!
-- [1] So schätzt du also meine Freundschaft?!

@@ -5,7 +5,7 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_fɔn_**
+- **_[fɔn](https://commons.wikimedia.org/wiki/File:De-von.ogg)_**
 ## Meaning
 ### Präposition
 - [1] mit Dativ: Ursprung räumlicher oder zeitlicher Veränderung, Herkunft, Gegenstand der Betrachtung, Ursache, sonstige Verhältnisse

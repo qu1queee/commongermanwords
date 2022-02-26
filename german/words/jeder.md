@@ -5,7 +5,7 @@
 ## Type
 - _Indefinitpronomen_
 ## Pronunciation
-- **_ˈjeːdɐ_**
+- **_[ˈjeːdɐ](https://commons.wikimedia.org/wiki/File:De-jeder.ogg)_**
 ## Meaning
 ### Indefinitpronomen
 - [1] ein Einzelner (eine Einzelne, ein Einzelnes) zusammen mit allen anderen einer Gruppe

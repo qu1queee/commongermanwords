@@ -5,7 +5,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_dan_**
+- **_[dan](https://commons.wikimedia.org/wiki/File:De-dann.ogg)_**
 ## Meaning
 ### Adverb
 - [1] zu einem späteren Zeitpunkt oder einer späteren Zeitspanne in der baldigen Zukunft

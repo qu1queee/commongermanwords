@@ -4,8 +4,8 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_daˈʁan_**
-- **_ˈdaːʁan_**
+- **_[daˈʁan](https://commons.wikimedia.org/wiki/File:De-daran.ogg)_**
+- **_[ˈdaːʁan](https://commons.wikimedia.org/wiki/File:De-daran.ogg)_**
 ## Meaning
 ### Adverb
 - [1] referenziert einen Gegenstand und bezeichnet die unmittelbare Berührung mit diesem

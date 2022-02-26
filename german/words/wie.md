@@ -11,7 +11,7 @@
 - _Konjunktion_
 - _Subjunktion_
 ## Pronunciation
-- **_viː_**
+- **_[viː](https://commons.wikimedia.org/wiki/File:De-wie.ogg)_**
 ## Meaning
 ### Adverb
 - [1a] Als modales Interrogativadverb erfragt „wie“ ein Adverb bzw. ein Adverbiale und damit die Art und Weise. Es steht stets an der Spitze eines Hauptsatzes oder eines Interrogativnebensatzes.

@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈaɪ̯nˌzat͡s_**
+- **_[ˈaɪ̯nˌzat͡s](https://commons.wikimedia.org/wiki/File:De-Einsatz.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] {{K|Militär|Polizei|Sportspiel}} unter anderem: abgeschlossene Aktion zur Erledigung einer Aufgabe

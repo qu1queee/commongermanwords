@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_uːɐ̯_**
+- **_[uːɐ̯](https://commons.wikimedia.org/wiki/File:De-Uhr.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Instrument zur Messung der Zeit, Chronometer
@@ -18,6 +18,7 @@
 - [1] Die Uhr ist stehengeblieben.
 - [1] „In einem plötzlichen Wutanfall schleuderte er die Uhr weit hinaus in das Wasser.“<ref>{{Literatur| AutorJens Rehn, Nachwort von Ursula März |TitelNichts in Sicht |Auflage |Verlag Schöffling |Ort  Frankfurt/Main |Jahr 2018| Seiten 68. |ISBN 978-3-89561-149-0}} Erstmals 1954 erschienen.</ref>
 - [1] „In einem der Flure gab es eine alte Pendeluhr, ich glaube im ersten Stock; die Uhr stand immer; eine echte Standuhr also.“<ref>{{Literatur | AutorHansi Sondermann | TitelHexentotentanz und andere Kriminalgeschichten | TitelErgAnthologie | VerlagMecke Druck und Verlag | OrtDuderstadt | Jahr2019 | ISBN978-3-86944-199-3 | Seiten30}}.</ref>
+- [1] „Er sah nach der Uhr.“<ref>{{Literatur | Autor Theodor Fontane |Titel Schach von Wuthenow | TitelErg Erzählung aus der Zeit des Regiments Gendarmes | Verlag  Nymphenburger | Ort München | Jahr1969 | Seiten 98.}} Entstanden 1878-82, erschienen 1882.</ref>
 - [1, 2, 4] „Gesundheit, Gewicht und Genuss: Wer sich richtig ernähren will, bringt die Uhr ins Spiel.“<ref>{{Literatur | AutorStefanie Kara | TitelZEIT Wissen; Mahl + Zeit | Auflage | VerlagZEIT Wissen Zeitverlag Gerd Bucerius GmbH & Co. KG| OrtHamburg | Jahr2017 | ISBN | Seiten49}}</ref>
 - [2] Um 10 Uhr stehe ich auf.
 - [2] Wie viel Uhr ist es?

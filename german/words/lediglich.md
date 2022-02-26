@@ -4,7 +4,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_ˈleːdɪklɪç_**
+- **_[ˈleːdɪklɪç](https://commons.wikimedia.org/wiki/File:De-lediglich.ogg)_**
 ## Meaning
 ### Adverb
 - [1] weiter nichts, nur

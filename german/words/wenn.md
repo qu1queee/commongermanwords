@@ -5,7 +5,7 @@
 ## Type
 - _Subjunktion_
 ## Pronunciation
-- **_vɛn_**
+- **_[vɛn](https://commons.wikimedia.org/wiki/File:De-wenn.ogg)_**
 ## Meaning
 ### Subjunktion
 - [1] sobald

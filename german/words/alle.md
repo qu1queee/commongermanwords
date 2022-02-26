@@ -6,7 +6,7 @@
 - _Adverb_
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈalə_**
+- **_[ˈalə](https://commons.wikimedia.org/wiki/File:De-alle.ogg)_**
 ## Meaning
 ### Adverb
 - [1] mitteldeutsch und norddeutsch, {{ugs.|:}} leer, nicht mehr vorrätig

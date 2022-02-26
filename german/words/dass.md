@@ -5,7 +5,7 @@
 ## Type
 - _Subjunktion_
 ## Pronunciation
-- **_das_**
+- **_[das](https://commons.wikimedia.org/wiki/File:De-dass.ogg)_**
 ## Meaning
 ### Subjunktion
 - [1] konsekutive Subjunktion (selten, wird meist mit sodass ausgedrückt): drückt eine Folge des Geschehens aus

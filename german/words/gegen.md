@@ -5,8 +5,8 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_ˈɡeːɡn̩_**
-- **_ˈɡeːɡŋ̍_**
+- **_[ˈɡeːɡn̩](https://commons.wikimedia.org/wiki/File:De-gegen.ogg)_**
+- **_[ˈɡeːɡŋ̍](https://commons.wikimedia.org/wiki/File:De-gegen.ogg)_**
 ## Meaning
 ### Präposition
 - [1] Lokale (örtliche) Präposition mit dem Akkusativ, Richtungsverhältnis: dagegen, entgegen

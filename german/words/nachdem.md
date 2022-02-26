@@ -4,7 +4,7 @@
 ## Type
 - _Subjunktion_
 ## Pronunciation
-- **_naːxˈdeːm_**
+- **_[naːxˈdeːm](https://commons.wikimedia.org/wiki/File:De-nachdem.ogg)_**
 ## Meaning
 ### Subjunktion
 - [1] Temporale Subjunktion zum Ausdruck der Vorzeitigkeit: drückt aus, dass das im Gliedsatz angegebene Geschehen vor dem des Hauptsatzes stattgefunden hat: zu einem späteren (als)

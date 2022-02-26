@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈzaɪ̯nə_**
+- **_[ˈzaɪ̯nə](https://commons.wikimedia.org/wiki/File:De-seine.ogg)_**
 ## Features
 ### Deklinierte Form
 -  feminine Form des Pronomens sein#Possessivpronomen|sein

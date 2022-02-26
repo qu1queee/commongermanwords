@@ -5,7 +5,7 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_baɪ̯_**
+- **_[baɪ̯](https://commons.wikimedia.org/wiki/File:De-bei.ogg)_**
 ## Meaning
 ### Präposition
 - :mit Dativ

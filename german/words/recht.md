@@ -3,23 +3,21 @@
 - es: derecho, verdadero
 - en: right
 ## Type
+- _Adjektiv_
 - _Adverb_
 - _Konjugierte Form_
-- _Adjektiv_
 ## Pronunciation
-- **_ʁɛçt_**
+- **_[ʁɛçt](https://commons.wikimedia.org/wiki/File:De-recht.ogg)_**
 ## Meaning
-### Adverb
-- [1] im hohen Ausmaß (aber nicht wirklich sehr)
 ### Adjektiv
 - [1] nur attributiv, also mit einer Deklinations<nowiki></nowiki>endung; keine Steigerung: zu der Seite gehörig, auf der die meisten Menschen das Herz nicht haben
 - [2] passend, richtig; den Erwartungen und der Moral entsprechend
 - [3] angenehm, erwünscht
 - [4] den anzuwendenden Gesetzen entsprechend; Fakten berücksichtigend
 - [5] {{K|kSt.|Mathematik|ftvon einem Winkel ausgesagt}} 90 Grad messend
-## Examples
 ### Adverb
-- [1] Sie ist ein recht hübsches Mädchen.
+- [1] im hohen Ausmaß (aber nicht wirklich sehr)
+## Examples
 ### Adjektiv
 - [1] Ich habe mir den rechten Arm gebrochen.
 - [2] Er trägt sein Herz am rechten Fleck.
@@ -30,6 +28,8 @@
 - [4] Allen recht getan, ist eine Kunst, die niemand kann.
 - [4] „So weit kanns kommen, wenn man es allen Leuten will recht machen.“<ref>Moral der Erzählung von Johann Peter Hebel: Seltsamer Spazierritt. In: Schatzkästlein des rheinischen Hausfreundes. Tübingen 1811, S. 116, S:Seltsamer Spazierritt|Online bei wikisource</ref>
 - [5] Das Rechteck hat vier rechte Winkel.
+### Adverb
+- [1] Sie ist ein recht hübsches Mädchen.
 ## Features
 ### Konjugierte Form
 - 2. Person Singular Imperativ Präsens Aktiv des Verbs rechten

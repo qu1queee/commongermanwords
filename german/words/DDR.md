@@ -2,7 +2,7 @@
 ## Type
 - _Abkürzung_
 ## Pronunciation
-- **_ˌdeːdeːˈʔɛʁ_**
+- **_[ˌdeːdeːˈʔɛʁ](https://commons.wikimedia.org/wiki/File:De-DDR.ogg)_**
 ## Meaning
 ### Abkürzung
 - [1] {{K|historisch}} Kurzwort für Deutsche Demokratische Republik

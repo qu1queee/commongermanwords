@@ -4,7 +4,7 @@
 ## Type
 - _Artikel_
 ## Pronunciation
-- **_dɛs_**
+- **_[dɛs](https://commons.wikimedia.org/wiki/File:De-des.ogg)_**
 ## Meaning
 ### Artikel
 - [1] Genitiv Singular von der und das

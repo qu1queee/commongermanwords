@@ -3,10 +3,10 @@
 - es: unir
 - en: unite
 ## Type
-- _Deklinierte Form_
 - _Verb_
+- _Deklinierte Form_
 ## Pronunciation
-- **_ˈaɪ̯nən_**
+- **_[ˈaɪ̯nən](https://commons.wikimedia.org/wiki/File:De-einen.ogg)_**
 ## Meaning
 ### Verb
 - [1] {{K|trans.}} zur Gemeinsamkeit führen

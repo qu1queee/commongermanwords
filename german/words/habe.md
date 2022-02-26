@@ -2,7 +2,7 @@
 ## Type
 - _Konjugierte Form_
 ## Pronunciation
-- **_ˈhaːbə_**
+- **_[ˈhaːbə](https://commons.wikimedia.org/wiki/File:De-habe.ogg)_**
 ## Features
 ### Konjugierte Form
 -  1. Person Singular Indikativ Präsens Aktiv des Verbs haben

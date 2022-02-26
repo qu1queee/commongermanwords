@@ -4,7 +4,7 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_ˈɪnɐhalp_**
+- **_[ˈɪnɐhalp](https://commons.wikimedia.org/wiki/File:De-innerhalb.ogg)_**
 ## Meaning
 ### Präposition
 - [1] mit Genitiv: in einem bestimmten Zeitraum

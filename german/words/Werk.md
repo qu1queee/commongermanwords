@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_vɛʁk_**
+- **_[vɛʁk](https://commons.wikimedia.org/wiki/File:De-Werk.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] die Tätigkeit des arbeiten|Arbeitens an einer (umfangreichen) Sache

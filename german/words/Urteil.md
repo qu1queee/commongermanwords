@@ -5,8 +5,8 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈuːɐ̯ˌtaɪ̯l_**
-- **_ˈʊʁˌtaɪ̯l_**
+- **_[ˈuːɐ̯ˌtaɪ̯l](https://commons.wikimedia.org/wiki/File:De-Urteil.ogg)_**
+- **_[ˈʊʁˌtaɪ̯l](https://commons.wikimedia.org/wiki/File:De-Urteil.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] {{K|Rechtssprache}} richterliche Entscheidung eines Gerichtes zur abschließenden Klärung eines Rechtsstreites

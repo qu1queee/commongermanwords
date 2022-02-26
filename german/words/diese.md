@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈdiːzə_**
+- **_[ˈdiːzə](https://commons.wikimedia.org/wiki/File:De-diese.ogg)_**
 ## Features
 ### Deklinierte Form
 - Nominativ Singular Femininum des Demonstrativpronomens dies

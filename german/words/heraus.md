@@ -5,7 +5,7 @@
 ## Type
 - _Lokaladverb_
 ## Pronunciation
-- **_hɛˈʁaʊ̯s_**
+- **_[hɛˈʁaʊ̯s](https://commons.wikimedia.org/wiki/File:De-heraus.ogg)_**
 ## Meaning
 ### Lokaladverb
 - [1] von dort drinnen nach hier außen

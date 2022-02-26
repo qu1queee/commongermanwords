@@ -6,7 +6,7 @@
 - _Substantiv_
 - _Straßenname_
 ## Pronunciation
-- **_maʁkt_**
+- **_[maʁkt](https://commons.wikimedia.org/wiki/File:De-Markt.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] {{K|Handel}} Einrichtung/Ort zum Handel mit Waren und Dienstleistungen

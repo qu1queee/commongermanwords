@@ -1,9 +1,9 @@
 # langen
 ## Type
-- _Verb_
 - _Deklinierte Form_
+- _Verb_
 ## Pronunciation
-- **_ˈlaŋən_**
+- **_[ˈlaŋən](https://commons.wikimedia.org/wiki/File:De-langen.ogg)_**
 ## Meaning
 ### Verb
 - [1] sich einem Gegenstand entgegen strecken, um ihn zu ergreifen

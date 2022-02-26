@@ -5,7 +5,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_ˈeːbənzoː_**
+- **_[ˈeːbənzoː](https://commons.wikimedia.org/wiki/File:De-ebenso.ogg)_**
 ## Meaning
 ### Adverb
 - [1] im gleichen Maße, auf die gleiche Weise

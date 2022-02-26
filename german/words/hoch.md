@@ -8,7 +8,7 @@
 - _Adjektiv_
 - _Adverb_
 ## Pronunciation
-- **_hoːx_**
+- **_[hoːx](https://commons.wikimedia.org/wiki/File:De-hoch.ogg)_**
 ## Meaning
 ### Adjektiv
 - [1] weit oben befindlich

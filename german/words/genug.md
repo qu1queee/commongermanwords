@@ -5,7 +5,7 @@
 ## Type
 - _Adjektiv_
 ## Pronunciation
-- **_ɡəˈnuːk_**
+- **_[ɡəˈnuːk](https://commons.wikimedia.org/wiki/File:De-genug.ogg)_**
 ## Meaning
 ### Adjektiv
 - [1] ausreichend

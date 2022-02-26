@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈʁaːmən_**
+- **_[ˈʁaːmən](https://commons.wikimedia.org/wiki/File:De-Rahmen.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] {{K|Technik}} stabilisierendes Gerüst, zum Beispiel eines Fahrzeugs oder Gerätes

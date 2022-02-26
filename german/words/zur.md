@@ -5,7 +5,7 @@
 ## Type
 - _Kontraktion_
 ## Pronunciation
-- **_t͡suːɐ̯_**
+- **_[t͡suːɐ̯](https://commons.wikimedia.org/wiki/File:De-zur.ogg)_**
 ## Meaning
 ### Kontraktion
 - [1] Kurzform von „zu der“

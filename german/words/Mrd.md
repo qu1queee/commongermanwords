@@ -2,7 +2,7 @@
 ## Type
 - _Abkürzung_
 ## Pronunciation
-- **_…_**
+- **_[…](https://commons.wikimedia.org/wiki/File:De-Mrd.ogg)_**
 ## Meaning
 ### Abkürzung
 - [1] Abkürzung für Milliarde

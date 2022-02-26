@@ -4,7 +4,7 @@
 ## Type
 - _Wortverbindung_
 ## Pronunciation
-- **_ˈɪmɐ ˈviːdɐ_**
+- **_[ˈɪmɐ ˈviːdɐ](https://commons.wikimedia.org/wiki/File:De-immer_wieder.ogg)_**
 ## Meaning
 ### Wortverbindung
 - [1] mehrmals wiederholt, bei jeder Wiederholung aufs Neue

@@ -8,7 +8,7 @@
 - _Präposition_
 - _Adverb_
 ## Pronunciation
-- **_aʊ̯f_**
+- **_[aʊ̯f](https://commons.wikimedia.org/wiki/File:De-auf.ogg)_**
 ## Meaning
 ### Präposition
 - [1] 

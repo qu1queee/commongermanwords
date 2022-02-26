@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈɡuːtn̩_**
+- **_[ˈɡuːtn̩](https://commons.wikimedia.org/wiki/File:De-guten.ogg)_**
 ## Features
 ### Deklinierte Form
 - Genitiv Singular Maskulinum der starken Flexion des Adjektivs gut

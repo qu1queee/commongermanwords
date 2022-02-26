@@ -6,7 +6,7 @@
 - _Verb_
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈaɪ̯nɪɡn̩_**
+- **_[ˈaɪ̯nɪɡn̩](https://commons.wikimedia.org/wiki/File:De-einigen.ogg)_**
 ## Meaning
 ### Verb
 - [1] {{K|trans.}} mehrere Parteien (zum Beispiel Personen oder Völker) zu einer Einheit verbinden

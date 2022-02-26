@@ -5,8 +5,8 @@
 ## Type
 - _Personalpronomen_
 ## Pronunciation
-- **_ɪç_**
-- **_ɪx_**
+- **_[ɪç](https://commons.wikimedia.org/wiki/File:De-ich.ogg)_**
+- **_[ɪx](https://commons.wikimedia.org/wiki/File:De-ich.ogg)_**
 ## Meaning
 ### Personalpronomen
 - [1] bezeichnet die eigene Person; grammatikalisch: 1. Person Singular

@@ -5,7 +5,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_ˈdɛnɔx_**
+- **_[ˈdɛnɔx](https://commons.wikimedia.org/wiki/File:De-dennoch.ogg)_**
 ## Meaning
 ### Adverb
 - [1] Konjunktionaladverb: trotzdem

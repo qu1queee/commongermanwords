@@ -5,7 +5,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_ʃteːt͡s_**
+- **_[ʃteːt͡s](https://commons.wikimedia.org/wiki/File:De-stets.ogg)_**
 ## Meaning
 ### Adverb
 - [1] zu jeder Zeit, immer

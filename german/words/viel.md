@@ -5,7 +5,7 @@
 ## Type
 - _Adjektiv_
 ## Pronunciation
-- **_fiːl_**
+- **_[fiːl](https://commons.wikimedia.org/wiki/File:De-viel.ogg)_**
 ## Meaning
 ### Adjektiv
 - [1] eine unbestimmte, große Menge von etwas; reichlich

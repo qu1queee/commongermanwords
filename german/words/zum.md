@@ -5,7 +5,7 @@
 ## Type
 - _Kontraktion_
 ## Pronunciation
-- **_t͡sʊm_**
+- **_[t͡sʊm](https://commons.wikimedia.org/wiki/File:De-zum.ogg)_**
 ## Meaning
 ### Kontraktion
 - [1] Kurzform von „zu dem“

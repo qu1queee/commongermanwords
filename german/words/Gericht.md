@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ɡəˈʁɪçt_**
+- **_[ɡəˈʁɪçt](https://commons.wikimedia.org/wiki/File:De-Gericht.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] zubereitete Speise als eine Mahlzeit

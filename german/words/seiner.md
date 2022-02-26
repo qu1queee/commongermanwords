@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈzaɪ̯nɐ_**
+- **_[ˈzaɪ̯nɐ](https://commons.wikimedia.org/wiki/File:De-seiner.ogg)_**
 ## Features
 ### Deklinierte Form
 - Genitiv Singular Femininum bei attributivem Gebrauch des Possessivpronomens sein#Possessivpronomen|sein

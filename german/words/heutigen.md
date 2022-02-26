@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈhɔɪ̯tɪɡn̩_**
+- **_[ˈhɔɪ̯tɪɡn̩](https://commons.wikimedia.org/wiki/File:De-heutigen.ogg)_**
 ## Features
 ### Deklinierte Form
 - Genitiv Singular Maskulinum Positiv der starken Flexion des Adjektivs heutig

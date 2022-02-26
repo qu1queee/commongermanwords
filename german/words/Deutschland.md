@@ -2,7 +2,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈdɔɪ̯t͡ʃlant_**
+- **_[ˈdɔɪ̯t͡ʃlant](https://commons.wikimedia.org/wiki/File:De-Deutschland.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] gängiger Name eines mitteleuropäischen Landes und amtliche Kurzform (Staatsbezeichnung) der Bundesrepublik Deutschland

@@ -5,7 +5,7 @@
 ## Type
 - _Demonstrativpronomen_
 ## Pronunciation
-- **_ˈdiːzɐ_**
+- **_[ˈdiːzɐ](https://commons.wikimedia.org/wiki/File:De-dieser.ogg)_**
 ## Meaning
 ### Demonstrativpronomen
 - [1] attributiver Gebrauch, um ein ganz bestimmtes, nahe liegendes Nomen hervorzuheben

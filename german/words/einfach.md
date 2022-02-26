@@ -5,7 +5,7 @@
 ## Type
 - _Adjektiv_
 ## Pronunciation
-- **_ˈaɪ̯nfax_**
+- **_[ˈaɪ̯nfax](https://commons.wikimedia.org/wiki/File:De-einfach.ogg)_**
 ## Meaning
 ### Adjektiv
 - [1] nicht schwierig

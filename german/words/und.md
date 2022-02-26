@@ -5,7 +5,7 @@
 ## Type
 - _Konjunktion_
 ## Pronunciation
-- **_ʊnt_**
+- **_[ʊnt](https://commons.wikimedia.org/wiki/File:De-und.ogg)_**
 ## Meaning
 ### Konjunktion
 - [1] Grammatik: verbindet allgemein Satzteile und Sätze; kann Satzzeichen (Komma, Semikolon, Punkt, Doppelpunkt, Ausrufezeichen und Fragezeichen) ersetzen, ermöglicht Aufzählung, Beiordnung, Ergänzung, Summierung und Hinzufügung

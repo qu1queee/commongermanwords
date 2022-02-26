@@ -7,12 +7,8 @@
 - _Präposition_
 - _Subjunktion_
 ## Pronunciation
-- **_bɪs_**
+- **_[bɪs](https://commons.wikimedia.org/wiki/File:De-bis.ogg)_**
 ## Meaning
-### Subjunktion
-- <br />
-- Temporale Subjunktion:
-- [1] bezeichnet den Zeitpunkt, an welchem das Geschehen des Hauptsatzes endet
 ### Präposition
 - <br />
 - Präposition (fordert bei Nomen den Akkusativ); zur Bezeichnung des Endpunkts eines zeitlichen oder räumlichen Geschehens:<br />
@@ -28,6 +24,10 @@
 - [8] bis auf: schließt etwas/jemanden ein oder aus
 - [8a] einschließlich
 - [8b] ausgenommen
+### Subjunktion
+- <br />
+- Temporale Subjunktion:
+- [1] bezeichnet den Zeitpunkt, an welchem das Geschehen des Hauptsatzes endet
 ## Examples
 ### Präposition
 - <br />

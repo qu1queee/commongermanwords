@@ -2,11 +2,11 @@
 ## Translations
 - en: developed
 ## Type
-- _Adjektiv_
 - _Partizip II_
 - _Konjugierte Form_
+- _Adjektiv_
 ## Pronunciation
-- **_ɛntˈvɪkl̩t_**
+- **_[ɛntˈvɪkl̩t](https://commons.wikimedia.org/wiki/File:De-entwickelt.ogg)_**
 ## Meaning
 ### Adjektiv
 - [1] aus einer Entwicklung hervorgehend

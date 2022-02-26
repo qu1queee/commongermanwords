@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈaɪ̯nəs_**
+- **_[ˈaɪ̯nəs](https://commons.wikimedia.org/wiki/File:De-eines.ogg)_**
 ## Features
 ### Deklinierte Form
 - :* Nominativ Singular Neutrum der starken Flexion des Indefinitpronomens ein#Indefinitpronomen|ein

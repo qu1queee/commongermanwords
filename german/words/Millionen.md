@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_mɪˈli̯oːnən_**
+- **_[mɪˈli̯oːnən](https://commons.wikimedia.org/wiki/File:De-Millionen.ogg)_**
 ## Features
 ### Deklinierte Form
 - Nominativ Plural des Substantivs Million

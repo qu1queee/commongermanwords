@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈiːʁə_**
+- **_[ˈiːʁə](https://commons.wikimedia.org/wiki/File:De-ihre.ogg)_**
 ## Features
 ### Deklinierte Form
 - Nominativ Singular Femininum von ihr#Possessivpronomen|ihr

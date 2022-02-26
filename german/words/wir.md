@@ -5,7 +5,7 @@
 ## Type
 - _Personalpronomen_
 ## Pronunciation
-- **_viːɐ̯_**
+- **_[viːɐ̯](https://commons.wikimedia.org/wiki/File:De-wir.ogg)_**
 ## Meaning
 ### Personalpronomen
 - [1] 1. Person Plural; mehrere Personen, die sprechende eingeschlossen

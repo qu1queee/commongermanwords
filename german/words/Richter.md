@@ -2,7 +2,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈʁɪçtɐ_**
+- **_[ˈʁɪçtɐ](https://commons.wikimedia.org/wiki/File:De-Richter.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] deutschsprachiger Familienname, Nachname

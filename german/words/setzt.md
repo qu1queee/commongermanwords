@@ -2,7 +2,7 @@
 ## Type
 - _Konjugierte Form_
 ## Pronunciation
-- **_zɛt͡st_**
+- **_[zɛt͡st](https://commons.wikimedia.org/wiki/File:De-setzt.ogg)_**
 ## Features
 ### Konjugierte Form
 - 2. Person Singular Indikativ Präsens Aktiv des Verbs setzen

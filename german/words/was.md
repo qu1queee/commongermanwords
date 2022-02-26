@@ -5,7 +5,7 @@
 ## Type
 - _Pronomen_
 ## Pronunciation
-- **_vas_**
+- **_[vas](https://commons.wikimedia.org/wiki/File:De-was.ogg)_**
 ## Meaning
 ### Pronomen
 - [1] Interrogativpronomen: sächliches Fragewort

@@ -5,7 +5,7 @@
 ## Type
 - _Fokuspartikel_
 ## Pronunciation
-- **_nuːɐ̯_**
+- **_[nuːɐ̯](https://commons.wikimedia.org/wiki/File:De-nur.ogg)_**
 ## Meaning
 ### Fokuspartikel
 - :generell: unterstreicht die Betonung oder Einschränkung der Satzteilaussage

@@ -6,8 +6,8 @@
 - _Adverb_
 - _Konjugierte Form_
 ## Pronunciation
-- **_fast_**
-- **_faːst_**
+- **_[fast](https://commons.wikimedia.org/wiki/File:De-fast.ogg)_**
+- **_[faːst](https://commons.wikimedia.org/wiki/File:De-fast.ogg)_**
 ## Meaning
 ### Adverb
 - [1] nicht ganz

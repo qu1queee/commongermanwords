@@ -5,8 +5,8 @@
 ## Type
 - _Verb_
 ## Pronunciation
-- **_ˈhaːbn̩_**
-- **_ˈhaːbm̩_**
+- **_[ˈhaːbn̩](https://commons.wikimedia.org/wiki/File:De-haben.ogg)_**
+- **_[ˈhaːbm̩](https://commons.wikimedia.org/wiki/File:De-haben.ogg)_**
 ## Meaning
 ### Verb
 - [1] Hilfsverb zur Bildung zusammensetzen|zusammengesetzter Tempus|Tempora

@@ -5,7 +5,7 @@
 ## Type
 - _Temporaladverb_
 ## Pronunciation
-- **_ˈdeːɐ̯t͡saɪ̯t_**
+- **_[ˈdeːɐ̯t͡saɪ̯t](https://commons.wikimedia.org/wiki/File:De-derzeit.ogg)_**
 ## Meaning
 ### Temporaladverb
 - *referenziert einen bestimmten Zeitpunkt oder Zeitspanne, eine Verkürzung von: zu dieser Zeit

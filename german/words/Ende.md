@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈɛndə_**
+- **_[ˈɛndə](https://commons.wikimedia.org/wiki/File:De-Ende.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Abschluss eines zeitlichen Vorganges

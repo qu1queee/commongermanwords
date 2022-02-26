@@ -5,7 +5,7 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_naːx_**
+- **_[naːx](https://commons.wikimedia.org/wiki/File:De-nach.ogg)_**
 ## Meaning
 ### Präposition
 - [1] in Richtung (mit Dativ oder adverbialer Bestimmung des Ortes)

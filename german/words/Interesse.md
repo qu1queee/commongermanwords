@@ -4,8 +4,8 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ɪntəˈʁɛsə_**
-- **_ɪnˈtʁɛsə_**
+- **_[ɪntəˈʁɛsə](https://commons.wikimedia.org/wiki/File:De-Interesse.ogg)_**
+- **_[ɪnˈtʁɛsə](https://commons.wikimedia.org/wiki/File:De-Interesse.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Gefühl oder Einstellung, von etwas mehr wissen zu wollen

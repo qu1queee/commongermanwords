@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_ˈanɡəˌboːt_**
+- **_[ˈanɡəˌboːt](https://commons.wikimedia.org/wiki/File:De-Angebot.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] Vorschlag

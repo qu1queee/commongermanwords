@@ -5,7 +5,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_buːx_**
+- **_[buːx](https://commons.wikimedia.org/wiki/File:De-Buch.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] fest gebundenes Schriftwerk

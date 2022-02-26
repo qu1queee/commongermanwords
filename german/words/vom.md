@@ -4,7 +4,7 @@
 ## Type
 - _Kontraktion_
 ## Pronunciation
-- **_fɔm_**
+- **_[fɔm](https://commons.wikimedia.org/wiki/File:De-vom.ogg)_**
 ## Meaning
 ### Kontraktion
 - [1] Kurzform von: von dem

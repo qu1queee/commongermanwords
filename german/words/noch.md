@@ -5,7 +5,7 @@
 ## Type
 - _Adverb_
 ## Pronunciation
-- **_nɔx_**
+- **_[nɔx](https://commons.wikimedia.org/wiki/File:De-noch.ogg)_**
 ## Meaning
 ### Adverb
 - [1] des Weiteren

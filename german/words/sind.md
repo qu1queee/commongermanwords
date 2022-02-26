@@ -2,7 +2,7 @@
 ## Type
 - _Konjugierte Form_
 ## Pronunciation
-- **_zɪnt_**
+- **_[zɪnt](https://commons.wikimedia.org/wiki/File:De-sind.ogg)_**
 ## Examples
 ### Konjugierte Form
 - [1] Joachim Ringelnatz: :s:An Land|An Land: "Wir sind betrunken wie die Wellen"

@@ -5,7 +5,7 @@
 ## Type
 - _Präposition_
 ## Pronunciation
-- **_ˈt͡svɪʃn̩_**
+- **_[ˈt͡svɪʃn̩](https://commons.wikimedia.org/wiki/File:De-zwischen.ogg)_**
 ## Meaning
 ### Präposition
 - [1] die genannten Gegenstände oder Personen zu beiden oder mehreren Seiten habend

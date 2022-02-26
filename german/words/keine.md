@@ -2,7 +2,7 @@
 ## Type
 - _Deklinierte Form_
 ## Pronunciation
-- **_ˈkaɪ̯nə_**
+- **_[ˈkaɪ̯nə](https://commons.wikimedia.org/wiki/File:De-keine.ogg)_**
 ## Features
 ### Deklinierte Form
 - Nominativ Singular Femininum attributiv des Indefinitpronomens kein

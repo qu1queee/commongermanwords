@@ -6,7 +6,7 @@
 - _Adjektiv_
 - _Konjugierte Form_
 ## Pronunciation
-- **_bəˈʁaɪ̯t_**
+- **_[bəˈʁaɪ̯t](https://commons.wikimedia.org/wiki/File:De-bereit.ogg)_**
 ## Meaning
 ### Adjektiv
 - [1] auf etwas vorbereiten|vorbereitet, mit der Vorbereitung fertig

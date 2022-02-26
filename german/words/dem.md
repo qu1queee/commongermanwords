@@ -2,7 +2,7 @@
 ## Type
 - _Artikel_
 ## Pronunciation
-- **_deːm_**
+- **_[deːm](https://commons.wikimedia.org/wiki/File:De-dem.ogg)_**
 ## Meaning
 ### Artikel
 - [1] Dativ Singular des definiten Artikels der

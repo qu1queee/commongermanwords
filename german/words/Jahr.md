@@ -4,7 +4,7 @@
 ## Type
 - _Substantiv_
 ## Pronunciation
-- **_jaːɐ̯_**
+- **_[jaːɐ̯](https://commons.wikimedia.org/wiki/File:De-Jahr.ogg)_**
 ## Meaning
 ### Substantiv
 - [1] periodischer wiederkehrender Zeitraum, etwa ein Umlauf der Erde um die Sonne, 12 Monate, 365 beziehungsweise 366 Tage

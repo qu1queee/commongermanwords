@@ -5,7 +5,7 @@
 ## Type
 - _Numerale_
 ## Pronunciation
-- **_t͡svaɪ̯_**
+- **_[t͡svaɪ̯](https://commons.wikimedia.org/wiki/File:De-zwei.ogg)_**
 ## Meaning
 ### Numerale
 - [1] zwei, die Kardinalzahl zwischen eins und drei

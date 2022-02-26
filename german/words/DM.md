@@ -2,7 +2,7 @@
 ## Type
 - _Abkürzung_
 ## Pronunciation
-- **_deːˈʔɛm_**
+- **_[deːˈʔɛm](https://commons.wikimedia.org/wiki/File:De-DM.ogg)_**
 ## Meaning
 ### Abkürzung
 - [1] Diabetes mellitus|Diabetes Mellitus

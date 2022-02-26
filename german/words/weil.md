@@ -4,11 +4,11 @@
 - en: because, as
 - en: because
 ## Type
+- _Konjugierte Form_
 - _Subjunktion_
 - _Konjunktion_
-- _Konjugierte Form_
 ## Pronunciation
-- **_vaɪ̯l_**
+- **_[vaɪ̯l](https://commons.wikimedia.org/wiki/File:De-weil.ogg)_**
 ## Meaning
 ### Subjunktion
 - [1] Subjunktion, die einen kausalen Nebensatz einleitet, auf dem besonderer Nachdruck liegt; im Hauptsatz stehen oft Wörter wie darum, deshalb oder deswegen, die auf den Nebensatz hinweisen sollen, weil kann dann nicht durch da ersetzt werden

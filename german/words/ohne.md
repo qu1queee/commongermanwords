@@ -7,7 +7,7 @@
 - _Präposition_
 - _Subjunktion_
 ## Pronunciation
-- **_ˈoːnə_**
+- **_[ˈoːnə](https://commons.wikimedia.org/wiki/File:De-ohne.ogg)_**
 ## Meaning
 ### Präposition
 - [1] mit Akkusativ: etwas oder jemanden ausschließend

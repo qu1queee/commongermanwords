@@ -5,8 +5,8 @@
 ## Type
 - _Reflexivpronomen_
 ## Pronunciation
-- **_zɪç_**
-- **_sɪç_**
+- **_[zɪç](https://commons.wikimedia.org/wiki/File:De-sich.ogg)_**
+- **_[sɪç](https://commons.wikimedia.org/wiki/File:De-sich.ogg)_**
 ## Meaning
 ### Reflexivpronomen
 - [1] Reflexivpronomen der dritten Person Singular

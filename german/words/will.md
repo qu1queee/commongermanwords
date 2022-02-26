@@ -2,7 +2,7 @@
 ## Type
 - _Konjugierte Form_
 ## Pronunciation
-- **_vɪl_**
+- **_[vɪl](https://commons.wikimedia.org/wiki/File:De-will.ogg)_**
 ## Features
 ### Konjugierte Form
 - 1. Person Singular Indikativ Präsens Aktiv des Verbs wollen

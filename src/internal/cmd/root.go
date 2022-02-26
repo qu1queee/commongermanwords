@@ -59,8 +59,17 @@ learn new words.
 			}
 
 			if len(data.IPA) > 0 {
+				audioURL, err := parser.GetLinkToAudio(data, word)
+				if err != nil {
+					// we ignore the err as we know not all words have an ogg link
+					fmt.Println(err.Error())
+				}
 				fmt.Fprintf(file, "## Pronunciation\n")
 				for _, ipa := range data.IPA {
+					if audioURL != "" {
+						fmt.Fprintf(file, "- **_[%s](%s)_**\n", ipa, audioURL)
+						continue
+					}
 					fmt.Fprintf(file, "- **_%s_**\n", ipa)
 				}
 			}

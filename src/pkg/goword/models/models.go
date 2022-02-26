@@ -32,3 +32,29 @@ type WordTypes struct {
 type Article struct {
 	Language map[string]WordTypes `json:"language,omitempty"`
 }
+
+// Audio holds and object containing information regarding
+// the pronunciation audio of a word. We use a common json
+// struct from wiktionary and auto-generate this object
+type Audio struct {
+	Query struct {
+		Normalized []struct {
+			From string `json:"from"`
+			To   string `json:"to"`
+		} `json:"normalized"`
+		Pages struct {
+			W struct {
+				Ns              int    `json:"ns"`
+				Title           string `json:"title"`
+				Missing         string `json:"missing"`
+				Known           string `json:"known"`
+				Imagerepository string `json:"imagerepository"`
+				Imageinfo       []struct {
+					URL                 string `json:"url"`
+					Descriptionurl      string `json:"descriptionurl"`
+					Descriptionshorturl string `json:"descriptionshorturl"`
+				} `json:"imageinfo"`
+			} `json:"-1"`
+		} `json:"pages"`
+	} `json:"query"`
+}
